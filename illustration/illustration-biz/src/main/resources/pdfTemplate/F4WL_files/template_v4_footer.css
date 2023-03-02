@@ -1,0 +1,134 @@
+@charset "Shift_JIS";
+
+/* ------------------------------------------------------ */
+/* Footer Decoration */
+/* ------------------------------------------------------ */
+
+#footerFrame {
+font-family:'‚l‚r ‚oƒSƒVƒbƒN','Hiragino Kaku Gothic Pro','ƒqƒ‰ƒMƒmŠpƒS Pro W3',osaka, sans-serif!important;
+background:none!important;
+}
+#footerFrame a,
+#footerFrame a:link,
+#footerFrame a:visited{
+color:#0061a0;
+}
+#footerFrame a{
+text-decoration:none;
+}
+#footerFrame a:hover{
+color:#0090da!important;
+text-decoration:underline;
+}
+
+#footerFrame .wrapFrame {
+height:170px!important;
+background:none!important;
+border-top:1px solid #e3e3e3;
+}
+
+#footerFrame .wrapFrame a,
+#footerFrame .wrapFrame img {
+vertical-align:middle;
+}
+#footerFrame .wrapFrame .lastUpdate {
+top: 118px!important;
+left: 50px!important;
+margin-top:0!important;
+font-size:78.57%!important;
+color:#929294!important;
+}
+#footerFrame .wrapFrame .hpNumber {
+top: 97px!important;
+left: 50px!important;
+margin-top:0!important;
+font-size:78.57%!important;
+color:#929294!important;
+}
+#footerFrame .wrapFrame #fInnerBlock {
+padding:20px 40px 0 30px;
+}
+#footerFrame .wrapFrame #fInnerBlock #fLeftBlock {
+width:640px;
+float:left;
+}
+#footerFrame .wrapFrame #fInnerBlock #footerLogo {
+width:225px;
+float:left;
+}
+
+#footerFrame .wrapFrame #fInnerBlock #fBodyArea {
+width:415px;
+float:left;
+padding-top:8px;
+}
+#footerFrame .wrapFrame #fInnerBlock #fBodyArea  ul.linkListFooter{
+margin-bottom:20px;
+}
+#footerFrame .wrapFrame #fInnerBlock #fBodyArea  ul.linkListFooter li{
+float:left;
+padding: 0 10px;
+border-left: 1px solid #0061a0;
+line-height:1.2;
+font-size:85.71%;
+}
+#footerFrame .wrapFrame #fInnerBlock #fBodyArea  ul.linkListFooter li:first-child{
+padding-left: 0;
+border-left: none;
+}
+#footerFrame .wrapFrame #fInnerBlock #fBodyArea  ul.linkListFooter li a{
+text-decoration:none;
+}
+#footerFrame .wrapFrame #fInnerBlock #fBodyArea  ul.linkListFooter li a:hover{
+text-decoration:underline;
+}
+
+#footerFrame .wrapFrame #fInnerBlock #fRightBlock {
+width:270px;
+float:right;
+}
+#footerFrame .wrapFrame #fInnerBlock #fRightBlock .fLinkSNS{
+float:right;
+margin-left:20px;
+margin-top:5px;
+}
+#footerFrame .wrapFrame #fInnerBlock #fRightBlock .fLinkSNS li{
+float:left;
+margin-left:20px;
+}
+#footerFrame .wrapFrame #fInnerBlock #fRightBlock #titSNS{
+float:right;
+margin-top:10px;
+font-size:85.71%;
+color:#929294;
+}
+
+/* utility */
+/* ------------------------------------------------------ */
+#footerFrame .bm8{margin-bottom:8px!important;}
+
+/* 181019 add */
+/* ------------------------------------------------------ */
+/* for Link Long Pattern */
+
+#footerFrame .wrapFrame #fInnerBlock.linkPatt02 {
+padding: 20px 30px 0 30px!important;
+}
+#footerFrame .wrapFrame #fInnerBlock.linkPatt02 #fLeftBlock {
+width: 920px!important;
+}
+#footerFrame .wrapFrame #fInnerBlock.linkPatt02 #footerLogo {
+width: 205px!important;
+}
+#footerFrame .wrapFrame #fInnerBlock.linkPatt02 #fBodyArea {
+width: 715px!important;
+}
+#footerFrame .wrapFrame #fInnerBlock.linkPatt02 #fBodyArea #copyR{
+padding-top:10px;
+float:left;
+}
+#footerFrame .wrapFrame #fInnerBlock.linkPatt02 #fBodyArea ul.linkListFooter {
+margin-bottom: 10px;
+}
+
+

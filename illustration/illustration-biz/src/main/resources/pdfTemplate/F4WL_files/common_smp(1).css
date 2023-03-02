@@ -1,0 +1,785 @@
+@charset "Shift_JIS";
+/* ====================================================== */
+/* For : General Elements */
+/* 1. Important */
+/* 2. Link */
+/* 3. Text */
+/* 4. Heading */
+/* 5. List */
+/* 6. Button */
+/* 7. Link */
+/* 8. Column */
+/* 9. Form */
+/* 10. Modules */
+/* 11. SPON */
+/* ====================================================== */
+
+/* ------------------------------------------------------ */
+/* 1. Important */
+/* ------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------ */
+/* 2. Link */
+/* ------------------------------------------------------ */
+a:link    {color: #0061a0; text-decoration: underline;}
+a:visited {color: #0061a0; text-decoration: underline;}
+a:active  {color: #0061a0; text-decoration: underline;}
+a:hover   {color: #0061a0; text-decoration: underline;}
+a {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* ------------------------------------------------------ */
+/* 3. Text */
+/* ------------------------------------------------------ */
+
+/* text color */
+/* ------------------------------------------------------ */
+.color-orange {
+	color: #ffc709 !important;
+}
+
+.color-red {
+	color: #e2195b !important;
+}
+
+.color-blue {
+	color: #0090da !important;
+}
+
+.color-blue02 {
+	color: #0061a0 !important;
+}
+
+.color-gray {
+	color: #aaa9aa !important;
+}
+
+.color-black {
+	color: #333333 !important;
+}
+
+/* background color */
+/* ------------------------------------------------------ */
+.bgcolor-white {
+	background-color: #ffffff !important;
+}
+
+.bgcolor-orange {
+	background-color: #ffc709 !important;
+}
+
+.bgcolor-red {
+	background-color: #e2195b !important;
+}
+
+.bgcolor-blue {
+	background-color: #0090da !important;
+}
+
+.bgcolor-gray {
+	background-color: #aaa9aa !important;
+}
+
+.bgcolor-green {
+	background-color: #a4ce4e !important;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* 4. Heading */
+/* ------------------------------------------------------ */
+
+/* .borderBtmBlue */
+/* ------------------------------------------------------ */
+h1.borderBtmBlue,
+h2.borderBtmBlue,
+h3.borderBtmBlue,
+h4.borderBtmBlue {
+	margin: 1.5rem;
+	padding: 0.5rem 0;
+	border-bottom: solid 3px #0090da;
+	color: #333333;
+	font-size: 1.8rem;
+	font-weight: bold;
+	line-height: 1.3;
+	text-align: center;
+}
+
+/* .borderBtmBlue */
+/* ------------------------------------------------------ */
+h1.simpleBlue,
+h2.simpleBlue,
+h3.simpleBlue,
+h4.simpleBlue {
+	margin: 1.5rem;
+	padding: 0;
+	color: #0090da;
+	font-size: 1.8rem;
+	font-weight: bold;
+	line-height: 1.3;
+}
+
+/* .filledBlue */
+/* ------------------------------------------------------ */
+h1.filledBlue,
+h2.filledBlue,
+h3.filledBlue,
+h4.filledBlue,
+p.filledBlue {
+	background: #0090da;
+	margin: 0;
+	padding: 0.5rem 1.5rem;
+	color: #ffffff;
+	font-size: 2.1rem;
+	line-height: 1.3;
+	text-align: center;
+}
+
+/* .filledLight */
+/* ------------------------------------------------------ */
+h1.filledLight,
+h2.filledLight,
+h3.filledLight,
+h4.filledLight,
+p.filledLight {
+	background: #f2f2f2;
+	margin: 0;
+	padding: 1.2rem 1.5rem;
+	color: #333333;
+	font-size: 2.1rem;
+	line-height: 1.3;
+	text-align: center;
+}
+
+/* .icon */
+/* ------------------------------------------------------ */
+.icn-man:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_man.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-medical:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_medical_blue.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-life:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_life_blue.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-cancer:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_cancer_blue.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-annuity:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_annuity_blue.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-organization:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_organization_blue.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-si:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_si_blue.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-estimate:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_estimate_blue.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-request:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_request_blue.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-olb:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_olb.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-women:before {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_women_blue.png") no-repeat center center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-tell:before{
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_tel_white.png") no-repeat left center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+.icn-order:before{
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_order.png") no-repeat left center;
+	background-size: contain;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 1rem 0.1rem 0;
+	vertical-align: middle;
+}
+
+/* .beltTtl */
+/* ------------------------------------------------------ */
+h1.beltTtl,
+h2.beltTtl,
+h3.beltTtl,
+h4.beltTtl {
+	margin: 2rem 0 1.5rem;
+	padding: 0 0 0 0.5rem;
+	border-left: solid 0.5rem #0090da;
+	background: none;
+	color: #333333;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+/* .pointTtl */
+/* ------------------------------------------------------ */
+h2.pointTtl,
+h3.pointTtl,
+h4.pointTtl {
+	display: table;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 3rem 0 0.5rem;
+	padding: 0 0 0 6rem;
+	border-bottom: 3px solid #0090da;
+	height: 4.1rem;
+}
+
+h2.pointTtl > span,
+h3.pointTtl > span,
+h4.pointTtl > span {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	color: #333333;
+	font-size: 1.6rem;
+	font-weight: bold;
+	line-height: 1.3;
+}
+
+h2.pointTtl.point1,
+h3.pointTtl.point1,
+h4.pointTtl.point1 {
+	background: url("/common/images_v4/smp/icn_pointTtl_01.png") no-repeat left bottom;
+	background-size: auto 100%;
+}
+
+h2.pointTtl.point2,
+h3.pointTtl.point2,
+h4.pointTtl.point2 {
+	background: url("/common/images_v4/smp/icn_pointTtl_02.png") no-repeat left bottom;
+	background-size: auto 100%;
+}
+
+h2.pointTtl.point3,
+h3.pointTtl.point3,
+h4.pointTtl.point3 {
+	background: url("/common/images_v4/smp/icn_pointTtl_03.png") no-repeat left bottom;
+	background-size: auto 100%;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* 5. List */
+/* ------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------ */
+/* 6. Button */
+/* ------------------------------------------------------ */
+
+.button {
+	display: inline-block;
+	border: 0.1rem solid #dddddd;
+	border-radius: 0.2rem;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.5rem;
+	box-shadow: 0.1rem 0.2rem 0.3rem 0 rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+a.button,
+a.button:hover {
+	text-decoration: none;
+}
+
+.button span {
+	color: inherit;
+}
+
+/* button color */
+/* ------------------------------------------------------ */
+.button.blue {
+	border-color: #0090da;
+	background-color: #0090da;
+	color: #ffffff;
+}
+
+.button.orange {
+	border-color: #ffc709;
+	background-color: #ffc709;
+	color: #333333;
+}
+
+.button.green {
+	border-color: #a4ce4e;
+	background-color: #a4ce4e;
+	color: #333333;
+}
+
+.button.red {
+	border-color: #e2195b;
+	background-color: #e2195b;
+	color: #333333;
+}
+
+.button.gray {
+	border-color: #f2f2f2;
+	background-color: #f2f2f2;
+	color: #333333;
+}
+
+.button.blue.disabled,
+.button.orange.disabled,
+.button.green.disabled,
+.button.red.disabled,
+.button.gray.disabled {
+	border-color: #e3e3e3;
+	background-color: #e3e3e3;
+}
+
+.button.lineBlue {
+	border-color: #0090da;
+	background-color: #ffffff;
+	color: #0090da;
+}
+
+.button.lineBlue > * {
+	color: #0090da;
+}
+
+.button.lineBlue.leftArrowLeft > *:before,
+.button.lineBlue.leftArrowRight > *:after {
+	border-right-color: #0090da;
+}
+
+.button.lineBlue.rightArrowLeft > *:before,
+.button.lineBlue.rightArrowRight > *:after {
+	border-left-color: #0090da;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* 7. Link */
+/* ------------------------------------------------------ */
+
+.linkSquareArrow, 
+.linkDiscArrowDown{
+	color: #007cc2;
+	text-decoration: underline;
+}
+
+.linkSquareArrow:before, 
+.linkDiscArrowDown:before, 
+.linkSquareArrow:after, 
+.linkDiscArrowDown:after {
+	position: relative;
+	top: 0.2em;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.linkSquareArrow {
+	display: inline-block;
+	text-indent: -1.4em;
+	padding-left: 1.4em;
+}
+
+.linkSquareArrow:before {
+	margin-right: 0.2em;
+	width: 1.2em;
+	height: 1em;
+	content: "";
+	background-image: url("/common/images_v4/smp/icn_link_square_arrow_blue.png");
+}
+
+.linkInfo {
+	display: inline-block;
+	text-indent: -1.4em;
+	padding-left: 1.4em;
+}
+
+.linkInfo:before {
+	margin-right: 0.3em;
+	width: 1.2em;
+	height: 1.2em;
+	content: "";
+	background-image: url("/common/images_v4/smp/icn_link_info_blue.png");
+}
+
+.linkDiscArrow, 
+.linkDiscArrowDown {
+	display: inline-block;
+	text-indent: -1.4em;
+	padding-left: 1.4em;
+}
+
+.linkDiscArrow:before {
+	margin-right: 0.3em;
+	width: 1.2em;
+	height: 1.2em;
+	content: "";
+	background-image: url("/common/images_v4/smp/icn_link_disc_arrow_blue.png");
+}
+
+.linkDiscArrowDown:before {
+	margin-right: 0.3em;
+	width: 1.2em;
+	height: 1.2em;
+	content: "";
+	background-image: url("/common/images_v4/smp/icn_link_disc_arrow_down_blue.png");
+}
+
+.linkArrow,
+.linkArrowDown {
+	display: inline-block;
+}
+
+.linkArrow:before,
+.linkArrowDown:before {
+	display: inline-block;
+	border: 0.4em solid transparent;
+	content: "";
+}
+
+.linkArrow {
+	padding-left: 0.8em;
+	text-indent: -0.8em;
+}
+
+.linkArrow:before {
+	top: -0.05em;
+	border-right-width: 0.3em;
+	border-left-width: 0.5em;
+	border-left-color: #0090da;
+}
+
+.linkArrowDown {
+	padding-left: 0.95em;
+	text-indent: -0.95em;
+}
+
+.linkArrowDown:before {
+	top: 0.25em;
+	margin-right: 0.2em;
+	border-top-width: 0.5em;
+	border-top-color: #0090da;
+}
+
+.pdflink:after {
+	content: "";
+	display: inline-block;
+	background: url("/common/images_v4/smp/icn_pdf_blue.png") no-repeat center center;
+	background-size: contain;
+	width: 1em;
+	height: 1.2em;
+	margin: 0 0.1em 0 0.3em;
+	vertical-align: middle;
+}
+
+.linkPop.pdflink:after,
+.linkInfo.pdflink:after,
+.linkDiscArrow.pdflink:after,
+.linkDiscArrowDown.pdflink:after,
+.linkArrow.pdflink:after,
+.linkArrowDown.pdflink:after {
+	vertical-align: top;
+	margin-top: 0.2rem;
+}
+
+.linkPop.pclink:after,
+.linkInfo.pclink:after,
+.linkDiscArrow.pclink:after,
+.linkDiscArrowDown.pclink:after,
+.linkArrow.pclink:after,
+.linkTouch.pclink:after,
+.linkDoc.pclink:after,
+.linkArrowDown.pclink:after,
+.linkExclamation.pclink:after,
+.linkPop.pclink-gray:after,
+.linkInfo.pclink-gray:after,
+.linkDiscArrow.pclink-gray:after,
+.linkDiscArrowDown.pclink-gray:after,
+.linkArrow.pclink-gray:after,
+.linkArrowDown.pclink-gray:after,
+.linkExclamation.pclink-gray:after,
+.linkPop.pdflink:after,
+.linkInfo.pdflink:after,
+.linkDiscArrow.pdflink:after,
+.linkDiscArrowDown.pdflink:after,
+.linkArrow.pdflink:after,
+.linkArrowDown.pdflink:after,
+.linkExclamation.pdflink:after {
+	vertical-align: baseline;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* 8. Column */
+/* ------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------ */
+/* 9. Form */
+/* ------------------------------------------------------ */
+
+/* .checkbox/.radio */
+/* ------------------------------------------------------ */
+.checkbox input,
+.radio input {
+	display: none;
+}
+
+.radio label {
+	display: block;
+	background: #fff url("/common/images_v4/smp/icn_radio.png") no-repeat 1.2rem center;
+	background-size: 1.5rem 1.5rem;
+	box-sizing: border-box;
+	padding: 1.5rem 0 1.5rem 3.8rem;
+	border: solid 1px #929294;
+	border-radius: 0.1rem;
+	box-shadow: none;
+	cursor: pointer;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.radio input[type="radio"]:checked + label {
+	background-image: url("/common/images_v4/smp/icn_radio_checked.png");
+	border: solid 1px #929294;
+}
+
+.checkbox > li,
+.radio > li {
+	margin-bottom: 0.5rem;
+}
+
+/* .select */
+/* ------------------------------------------------------ */
+.select select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	box-sizing: border-box;
+	height: 5rem;
+	padding: 1rem 1.6rem 1rem 0.8rem;
+	border: solid 1px #929294;
+	border-radius: 0.1rem;
+	font-size: 1.6rem;
+	vertical-align: middle;
+	margin-right: 0.3rem;
+	background: #ffffff url("/common/images_v4/smp/bg_select.png") no-repeat right center;
+	background-size: 1.3rem 0.7rem;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* 10. Modules */
+/* ------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------ */
+/* .titleBox */
+/* ------------------------------------------------------ */
+
+.titleBox {
+	display: block;
+	width: 100%;
+	margin: 1.8rem 0;
+	padding: 0 1.5rem 0 1.5rem;
+	box-sizing: border-box;
+}
+
+.titleBox h1 {
+	display: block;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* .productsCatLink */
+/* ------------------------------------------------------ */
+
+.productsCatLink {
+	margin: 2rem 1.5rem;
+	padding: 0 0.5rem 1.5rem;
+	background: #eeeeee;
+	text-align: center;
+}
+
+.productsCatLink > h2 {
+	padding: 1.5rem 0;
+	font-size: 1.6rem;
+	color: #0b324c;
+	text-align: center;
+}
+
+.productsCatLink li {
+	font-size: 1.6rem;
+}
+
+.productsCatLink .productsCatLinkMore {
+	font-size: 1.2rem;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* Accordion */
+/* ------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------------ */
+/* .indexLink */
+/* ------------------------------------------------------ */
+
+.indexLink li {
+	margin: 1rem 0;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* .pageAttention, .sslInfo */
+/* ------------------------------------------------------ */
+
+.pageAttention .hpNumber {
+	text-align: right;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* hr.sep */
+/* ------------------------------------------------------ */
+
+hr.sep {
+	margin: 1.5rem 0;
+	height: 1px;
+	background: #eeeeee;
+	border: none;
+}
+
+hr.sep-dashed {
+	margin: 1.5rem 0;
+	height: 0;
+	border: none;
+	border-top: dashed 1px #dddddd;
+}
+
+hr.sep-dotted {
+	margin: 1.5rem 0;
+	height: 0;
+	border: none;
+	border-top: dotted 1px #7f7f7f;
+}

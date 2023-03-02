@@ -1,0 +1,56 @@
+@charset "Shift_JIS";
+
+/* --------------------------------------------------------------------- */
+/* Reset */
+/* --------------------------------------------------------------------- */
+body,div,
+dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+/*pre,*/form,/*fieldset,*/input,textarea,/*button,*/
+p,blockquote,/*th,*/td{
+margin:0;
+padding:0;
+}
+
+table{
+border-collapse:collapse;
+border-spacing:0;
+}
+/*fieldset,*/img{
+border:0;
+}
+address,caption {
+font-style:normal;
+font-weight:normal;
+}
+ol,/*ul*/
+#headerFrame ul,
+#contents ul,
+#popup_container ul,
+#subFrame ul,
+#footerFrame ul {
+list-style:none;
+}
+caption,/*th*/
+#mainFrame th,
+#subFrame th {
+text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+font-size:100%;
+font-weight:normal;
+}
+/*q:before,q:after*/
+#mainFrame q:after,
+#subFrame q:after {
+content:'';
+}
+/*abbr,acronym*/
+#mainFrame abbr,
+#subFrame abbr {
+border:0;
+}
+#mainFrame hr,
+#subFrame hr {
+display:none;
+}

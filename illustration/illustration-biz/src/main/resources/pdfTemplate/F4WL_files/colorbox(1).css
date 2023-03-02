@@ -1,0 +1,157 @@
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	overflow: hidden;
+}
+
+#cboxOverlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+}
+
+#cboxMiddleLeft, #cboxBottomLeft {
+	clear: left;
+}
+
+#cboxContent {
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+#cboxLoadedContent {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#cboxLoadedContent iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+#cboxTitle {
+	margin: 0;
+	position: absolute;
+	bottom: 4px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	color: #949494;
+}
+
+#cboxLoadingOverlay, 
+#cboxLoadingGraphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#cboxLoadingOverlay {
+	background: url("/common/overlay/colorboxR/images/smp/loading_background.png") no-repeat center center;
+}
+
+#cboxLoadingGraphic {
+	background:url("/common/overlay/colorboxR/images/smp/loading.gif") no-repeat center center;
+}
+
+#colorbox {
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+}
+
+#cboxTopLeft{
+	height: 29px;
+	background-color: #e3e3e3;
+}
+
+#cboxTopRight {
+	height: 29px;
+	background-color: #e3e3e3;
+}
+
+#cboxTopCenter {
+	height: 29px;
+	background-color: #e3e3e3;
+}
+
+.cbox_v3 #cboxTopLeft{
+	height: 0px;
+}
+
+.cbox_v3 #cboxTopRight {
+	height: 0px;
+}
+
+.cbox_v3 #cboxTopCenter {
+	height: 0px;
+}
+
+#cboxBottomLeft {
+	height: 50px;
+}
+
+#cboxBottomRight {
+	height: 50px;
+}
+
+#cboxBottomCenter {
+	height: 50px;
+}
+
+#cboxCurrent {
+	position: absolute;
+	bottom: 4px;
+	left: 58px;
+	color: #949494;
+}
+
+#cboxClose {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	background: url("/common/overlay/colorboxR/images/smp/cbox_btn_close.png") no-repeat top left;
+	background-size: contain;
+	width: 66px;
+	height: 25px;
+	text-indent: -9999px;
+	margin: 0 0 0 -33px;
+	padding: 0;
+	border: none;
+	z-index: 11000;
+}
+
+.cbox_v3 #cboxClose {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #a3a3a3;
+	width: 100%;
+	height: 50px;
+	text-indent: 0;
+	margin: 0;
+	padding: 0;
+	border: none;
+	color: #ffffff;
+	font-size: 1.2rem;
+	z-index: 11000;
+}
+
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+	cursor: pointer;
+}
+
+

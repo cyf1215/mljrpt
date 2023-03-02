@@ -1,0 +1,7 @@
+com.cg.mljrpt.admin.api.feign.RemoteClientDetailsService
+com.cg.mljrpt.admin.api.feign.RemoteDictService
+com.cg.mljrpt.admin.api.feign.RemoteDeptService
+com.cg.mljrpt.admin.api.feign.RemoteLogService
+com.cg.mljrpt.admin.api.feign.RemoteTokenService
+com.cg.mljrpt.admin.api.feign.RemoteUserService
+com.cg.mljrpt.admin.api.feign.RemoteParamService

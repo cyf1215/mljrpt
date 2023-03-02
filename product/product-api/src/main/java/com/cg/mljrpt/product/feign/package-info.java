@@ -1,0 +1,1 @@
+package com.cg.mljrpt.product.feign;

@@ -1,0 +1,49 @@
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>报告模版</title>
+    <style>
+        /*编写css*/
+        tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<!--  引入字体  -->
+<body style="font-family: SimSun;">
+<div class="main">
+    报告模版
+</div>
+<div class="main2">
+    <span class="heng" th:text="${template.name}">template.name</span>
+
+    <img src="./img/itext_logo.png">
+<!--    <table class="tabletype">
+        <thead>
+        <tr class="recordhead">
+            <th class="leaf" style="width: 80px;">uid</th>
+            <th class="leaf" style="width: 80px;">username</th>
+            <th class="leaf" style="width: 80px;">password</th>
+        </tr>
+        </thead>
+        <tbody th:if="${template.userList}">
+        <tr th:each="m,var : ${template.userList}">
+            <th class="leaf" th:text="${m.uid}"></th>
+            <th class="leaf" th:text="${m.username}"></th>
+            <th class="leaf" th:text="${m.password}"></th>
+        </tr>
+        </tbody>
+    </table>-->
+</div>
+</body>
+</html>

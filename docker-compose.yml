@@ -1,0 +1,90 @@
+version: '3'
+services:
+  mljrpt-mysql:
+    build:
+      context: ./db
+    environment:
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_ROOT_PASSWORD: root
+    restart: always
+    container_name: mljrpt-mysql
+    image: mljrpt-mysql
+
+  mljrpt-redis:
+    image: redis:7.0.0
+    restart: always
+    container_name: mljrpt-redis
+    hostname: mljrpt-redis
+
+  mljrpt-register:
+    build:
+      context: ./mljrpt-register
+    restart: always
+    ports:
+      - 8848:8848
+    container_name: mljrpt-register
+    hostname: mljrpt-register
+    image: mljrpt-register
+
+  mljrpt-gateway:
+    build:
+      context: ./mljrpt-gateway
+    restart: always
+    ports:
+      - 9999:9999
+    container_name: mljrpt-gateway
+    hostname: mljrpt-gateway
+    image: mljrpt-gateway
+
+  mljrpt-auth:
+    build:
+      context: ./mljrpt-auth
+    restart: always
+    container_name: mljrpt-auth
+    hostname: mljrpt-auth
+    image: mljrpt-auth
+
+  mljrpt-upms:
+    build:
+      context: ./mljrpt-upms/mljrpt-upms-biz
+    restart: always
+    container_name: mljrpt-upms
+    hostname: mljrpt-upms
+    image: mljrpt-upms
+
+  mljrpt-monitor:
+    build:
+      context: ./mljrpt-visual/mljrpt-monitor
+    restart: always
+    ports:
+      - 5001:5001
+    container_name: mljrpt-monitor
+    hostname: mljrpt-monitor
+    image: mljrpt-monitor
+
+  mljrpt-sentinel:
+    build:
+      context: ./mljrpt-visual/mljrpt-sentinel-dashboard
+    restart: always
+    image: mljrpt-sentinel
+    container_name: mljrpt-sentinel
+    ports:
+      - 5003:5003
+
+  mljrpt-codegen:
+    build:
+      context: ./mljrpt-visual/mljrpt-codegen
+    restart: always
+    container_name: mljrpt-codegen
+    hostname: mljrpt-codegen
+    image: mljrpt-codegen
+
+  mljrpt-job:
+    build:
+      context: ./mljrpt-visual/mljrpt-xxl-job-admin
+    restart: always
+    container_name: mljrpt-job
+    hostname: mljrpt-job
+    image: mljrpt-job
+    ports:
+      - 5004:5004

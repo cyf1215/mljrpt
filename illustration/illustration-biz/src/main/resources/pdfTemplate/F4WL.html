@@ -1,0 +1,658 @@
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Premium simulation</title>
+
+  <!-- For PC Common CSS -->
+  <link rel="stylesheet" href="./F4WL_files/reset.css" media="all and (min-width: 768px)">
+  <link rel="stylesheet" href="./F4WL_files/template.css" media="all and (min-width: 768px)">
+  <link rel="stylesheet" href="./F4WL_files/base.css" media="all and (min-width: 768px)">
+  <link rel="stylesheet" href="./F4WL_files/base(1).css" media="all and (min-width: 768px)">
+  <link rel="stylesheet" href="./F4WL_files/colorbox.css" media="all and (min-width: 768px)">
+
+  <!-- For SMP Common CSS -->
+  <link rel="stylesheet" href="./F4WL_files/reset_smp.css" media="all and (max-width: 767px)">
+  <link rel="stylesheet" href="./F4WL_files/common_smp.css" media="all and (max-width: 767px)">
+  <link rel="stylesheet" href="./F4WL_files/common_smp(1).css" media="all and (max-width: 767px)">
+  <link rel="stylesheet" href="./F4WL_files/template_smp.css" media="all and (max-width: 767px)">
+  <link rel="stylesheet" href="./F4WL_files/colorbox(1).css" media="all and (max-width: 767px)">
+
+  <!-- For RESPONSIVE Common CSS -->
+  <link rel="stylesheet" href="./F4WL_files/template_responsive_base.css" media="all">
+  <link rel="stylesheet" href="./F4WL_files/floating_responsive.css" media="all">
+  <link rel="stylesheet" href="./F4WL_files/print_r.css" media="print">
+
+  <!-- For This Page Unique CSS -->
+  <link rel="stylesheet" href="./F4WL_files/sim2.css" media="all">
+
+  <style>
+      @page {
+          @bottom-right {
+              content: "Page " counter(page) " of " counter(pages);
+          }
+      }
+    </style>
+
+</head>
+<body id="pageSelect" class="header04Body">
+
+<!-- header：Start ::::::::::::::::::::::::::::::::::::::::::: -->
+<link href="./F4WL_files/template_v4_header.css" rel="stylesheet" type="text/css" media="all">
+
+<div id="contentsFrame" class="custom01">
+  <div id="sim2Wrap">
+    <div id="contents">
+      <form name="sim2Form" id="sim2Form" action="https://www.metlife.co.jp/products/sim2/f4wl/select.html">
+        <input type="hidden" name="prodName" id="prodName" value="f4wl">
+        <!-- <input type="hidden" name="recPlan" id="recPlan" value="54D"> -->
+        <input type="hidden" name="recPlan" id="recPlan" value="6ｲM">
+        <input type="hidden" name="baseSex" id="baseSex" value="1">
+        <input type="hidden" name="baseBirthday" id="baseBirthday" value="19860115">
+        <input type="hidden" name="baseAge" id="baseAge" value="37">
+        <input type="hidden" name="olbParameter" id="olbParameter" value="5E,E01,69IIM9&amp;enCodeFlg=true">
+
+        <div class="headerBlock02 bp0">
+
+          <div class="topBlock">
+            <div class="simInnerBlock">
+              <div class="topReadBlock clf">
+                <div class="blockLeft">
+                  <p class="mainRead" th:text="${template.productName}">${template.productName}</p>
+                  <h1 class="prodName" th:text="${template.nickName}">${template.nickName}</h1>
+                  <div class="topConditionBlock">
+                    <p class="txt02 bm0">保険期間・保険料払込期間：終身</p>
+                    <p class="txt02">（クレジットカード払・口座振替扱）</p>
+                    <p class="txt01">お見積もり条件:<span class="resultAge" th:text="${template.age}">${template.age}</span> years old <span class="resultSex lm10" th:text="${template.gender}">${template.gender}</span></p>
+                    <!-- /.topConditionBlock -->
+                  </div>
+                  <!-- /.blockLeft -->
+                </div>
+                <div class="blockRight">
+                  <p class="uFontS01">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/terms.html#notes" target="_blank" class="termsLink">ご注意事項</a>
+                  </p>
+                  <p class="uFontS01">
+                    <a href="https://www.metlife.co.jp/products/medical/f5wl/detail/" target="_blank">商品詳細</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="simInnerBlock">
+            <!-- <p class="readTextStyle01">基本保障は給付金の受け取り方別に3つの型からお選びください。給付金額をご選択後に、必要な保障を追加いただけます。</p> -->
+
+            <div class="titStyle15">
+              <h2 class="titStyle15Inner">
+                <span class="titStyle15Label">STEP1</span>
+                <span class="titStyle15Text">基本保障（入院）を選ぶ</span>
+              </h2>
+            </div>
+
+            <div class="simBaseTabArea01 simTabWrap">
+              <h3 class="titStyle07">給付金の受け取り方<a href="https://www.metlife.co.jp/products/sim2/f4wl/addition.html#sec03" target="_blank" class="iconLinkQ02 changeAddUrl">
+                <img src="./F4WL_files/cmn_icon_31.png" alt="？">
+              </a>
+              </h3>
+
+              <div class="simBaseTabAreaInner">
+                <ul class="simTabLink02 simTabStyle02 pttCol1 clf">
+
+                  <li id="baseTabNormal" class="curr">
+                    <a href="javascript:void(0);" data-tab-item="tabBlock03">
+                          <span class="innerWrap">
+                            <span class="innerTxt">入院日数連動型</span>
+                          </span>
+                    </a>
+                  </li>
+                </ul>
+
+                <div class="simTabBlock">
+
+                  <div class="tabBlock03 tabItem" style="display: block;">
+                    <!-- <p>入院が長引いても、入院日数分の給付金を準備したい方におすすめ</p> -->
+                    <p>入院が長引いても、入院日数分の給付金を準備したい方へ</p>
+                    <div class="txtC">
+                      <select name="baseSelect" id="baseSelect03" class="selectStyle02">
+                        <option value="5000" selected="">5,000円／日</option>
+                        <option value="10000">10,000円／日</option>
+                        <option value="15000">15,000円／日</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="simContainer">
+          <div class="simInnerBlock">
+            <p class="iconImage02 bm0">
+              <img src="./F4WL_files/cmn_icon_35.png" alt="">
+            </p>
+          </div>
+        </div>
+
+        <div class="titStyle15">
+          <h2 class="titStyle15Inner">
+            <span class="titStyle15Label">STEP2</span>
+            <span class="titStyle15Text">保障を追加する</span>
+          </h2>
+        </div>
+
+        <div class="simTabWrap">
+        </div>
+        <div id="inputArea">
+          <div class="simContainer">
+            <div class="simInnerBlock">
+              <h2 class="titStyle11">入院・手術・先進医療の保障</h2>
+              <div style="page-break-after: always" id="advancedMedicineBlock" class="selectBlock">
+                <div class="checkBlockStyle01 checkBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="checkBlockReadTxt">
+                      <span class="color-red">先進医療</span>による療養に備える
+                    </p>
+                  </div>
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="checkBlockReadTxt bm10">先進医療特約</p>
+                    <span class="titStyle15Label" th:if="${template.advancedMedicine eq 'selected'}">This rider is selected</span>
+                    <span class="titStyle15Label" th:unless="${template.advancedMedicine eq 'selected'}">This rider is not selected</span>
+                  </div>
+                  <div class="simContainer02 tp0 bp0">
+                    <ul class="plusPremArea plusPremCol1">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span th:if="${template.advancedMedicine eq 'selected'}">114</span>円</li>
+                    </ul>
+                  </div>
+
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+                      <p class="bm10">先進医療にかかる<span class="color-red">技術料と同額（通算最高2,000万円まで）</span>に加えて技術料相当額の<span class="color-red">20％</span>（1回の療養につき<span class="color-red">100万円</span>まで）を受け取れます。</p>
+                      <ul class=" uFontS01 bm10">
+                        <li>先進医療特約は更新される際に保険料が変更される場合があります。</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="operationSecBlock" class="selectBlock tm20">
+                <div class="radioBlockStyle01 raidoBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="radioBlockReadTxt bm0">
+                      <span class="color-red">さまざまな手術</span>に備える
+                    </p>
+                  </div>
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="radioBlockReadTxt bm10">手術総合特約</p>
+                    <span class="titStyle15Label" th:if="${template.operationSec eq 'selected'}">This rider is selected</span>
+                    <span class="titStyle15Label" th:unless="${template.operationSec eq 'selected'}">This rider is not selected</span>
+                  </div>
+                  <div class="simContainer02 tp0 bp0">
+                    <ul class="plusPremArea plusPremCol1">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span id="plus_operationSec_3000" th:if="${template.operationSec eq 'selected'}">489</span>円</li>
+                    </ul>
+                  </div>
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+                      <p class="bm10">所定の手術を受けられたとき、入院中は1回につき<span class="color-red">
+                              <span class="operationSecInnerText">--</span>万円
+                            </span>を受け取れます。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="eightSicknessBlock" class="selectBlock tm20">
+                <div class="checkBlockStyle01 checkBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="checkBlockReadTxt">
+                      <span class="color-red">八疾病</span>での長期の入院に備える
+                    </p>
+                  </div>
+                  
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="checkBlockReadTxt bm10">八疾病延長入院特約</p>
+                    <span class="titStyle15Label" th:if="${template.eightSickness eq 'selected'}">This rider is selected</span>
+                    <span class="titStyle15Label" th:unless="${template.eightSickness eq 'selected'}">This rider is not selected</span>
+                  </div>
+                  <div class="simContainer02 tp0 bp0">
+                    <ul class="plusPremArea plusPremCol1 selectDisplay">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span id="plus_eightSickness" th:if="${template.eightSickness eq 'selected'}">310</span>円</li>
+                    </ul>
+                  </div>
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+                      <p class="bm10">ガン（悪性新生物・上皮内新生物）・糖尿病・心疾患・高血圧性疾患・脳血管疾患・肝疾患・腎疾患・膵疾患の<span class="color-red">八疾病</span>での長期入院を<span class="color-red">日数無制限</span>で保障します。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="page-break-after: always" class="simContainer tp0">
+            <div class="simInnerBlock">
+              <h2 class="titStyle11">健康のサポートの保障</h2>
+              <div id="healthBlock" class="selectBlock">
+                <div class="radioBlockStyle01 raidoBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="radioBlockReadTxt bm0">所定の入院がなければ、
+                      <br class="onlySMP">給付金を受け取れる</p>
+                  </div>
+                  
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="radioBlockReadTxt bm10">健康サポート特則</p>
+                    <span class="titStyle15Label" th:if="${template.health eq 'selected'}">This rider is selected</span>
+                    <span class="titStyle15Label" th:unless="${template.health eq 'selected'}">This rider is not selected</span>
+                    <ul class="plusPremArea plusPremCol1">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span id="plus_health_3000" th:if="${template.health eq 'selected'}">1,240</span>円</li>
+                    </ul>
+                  </div>
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+                      <p class="bm10">所定の入院がなかったなどの場合、<span class="color-red healthInnerText01">--</span>ごとに<span class="color-red">
+                              <span class="variVal1">10</span>万円
+                            </span>を受け取れます。（最長100歳まで）</p>
+                      <ul class=" uFontS01 bm10">
+                        <li>この特則は、契約時のみ付加できます。また、この特則の解約はできません。</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="simContainer tp0">
+            <div class="simInnerBlock">
+              <h2 class="titStyle11">通院の保障</h2>
+              <div id="goHospitalBlock" class="selectBlock">
+                <div class="checkBlockStyle01 checkBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="checkBlockReadTxt">退院後の通院や外来手術での
+                      <br class="onlySMP">通院に備える</p>
+                  </div>
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="checkBlockReadTxt bm10">退院後・外来手術通院特約</p>
+                    <span class="titStyle15Label" th:if="${template.goHospital eq 'selected'}">This rider is selected</span>
+                    <span class="titStyle15Label" th:unless="${template.goHospital eq 'selected'}">This rider is not selected</span>
+                  </div>
+                  <div class="simContainer02 tp0 bp0">
+                    <ul class="plusPremArea plusPremCol1">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span id="plus_goHospital_5000" th:if="${template.goHospital eq 'selected'}">530</span>円</li>
+                    </ul>
+                  </div>
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+                      <p class="bm10">病気やケガによる入院の退院後、所定の通院をされたとき、または手術を外来で受けられ、所定の通院をされたとき1日につき<span class="color-red">5,000円</span>を受け取れます。</p>
+                      <ul class=" uFontS01 bm10">
+                        <li>退院後通院給付金と外来手術通院給付金は重複してお支払いすることはありません。なお、この場合は退院後通院給付金のお支払いを優先します。</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="simContainer tp0">
+            <div class="simInnerBlock">
+              <h2 class="titStyle11">三疾病・ガンの保障</h2>
+              <div id="threeSicknessTempBlock" class="selectBlock">
+                <div class="checkBlockStyle01 checkBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="checkBlockReadTxt">三疾病になったときに
+                      <br class="onlySMP">一時金で備える</p>
+                  </div>
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="checkBlockReadTxt bm10">新三疾病一時金特約</p>
+                    <span class="titStyle15Label" th:if="${template.threeSicknessTemp eq 'selected'}">This rider is selected</span>
+                    <span class="titStyle15Label" th:unless="${template.threeSicknessTemp eq 'selected'}">This rider is not selected</span>
+                  </div>
+                  <div class="simContainer02 tp0 bp0">
+                    <ul class="plusPremArea plusPremCol1">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span id="plus_threeSicknessTemp_1000000" th:if="${template.threeSicknessTemp eq 'selected'}">3,920</span>円</li>
+                    </ul>
+                  </div>
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+                      <p class="bm10">ガン（悪性新生物・上皮内新生物）・心疾患・脳血管疾患の三疾病をまとまった一時金で保障します。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="page-break-after: always" id="threeSicknessMonthBlock" class="selectBlock tm20">
+                <div class="checkBlockStyle01 checkBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="checkBlockReadTxt">三疾病になったときに
+                      <br class="onlySMP">月ごとに備える</p>
+                    <!-- /.simContainer02 -->
+                  </div>
+                  
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="checkBlockReadTxt bm10">三疾病治療月払給付特約</p>
+                    <span class="titStyle15Label" th:if="${template.threeSicknessMonth eq 'selected'}">This rider is selected</span>
+                    <span class="titStyle15Label" th:unless="${template.threeSicknessMonth eq 'selected'}">This rider is not selected</span>
+                    <!-- /.simContainer02 -->
+                  </div>
+
+                  <div class="simContainer02 tp0 bp0">
+                    <ul class="plusPremArea plusPremCol1">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span id="plus_threeSicknessMonth_100000" th:if="${template.threeSicknessMonth eq 'selected'}">1,530</span>円</li>
+                      <!-- /.plusPremArea -->
+                    </ul>
+                    <!-- /.simContainer02 -->
+                  </div>
+
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+
+                      <p class="bm10">ガン（悪性新生物・上皮内新生物）・心疾患・脳血管疾患の三疾病を月ごとの給付金で保障します。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="cancerTempBlock" class="selectBlock tm20">
+                <div class="checkBlockStyle01 checkBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="checkBlockReadTxt">ガンになったときに
+                      <br class="onlySMP">一時金で備える</p>
+                  </div>
+                  
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="checkBlockReadTxt bm10">ガン一時金特約</p>
+                    <span class="titStyle15Label" th:if="${template.cancerTemp eq 'selected'}">This rider is selected</span>
+                    <span class="titStyle15Label" th:unless="${template.cancerTemp eq 'selected'}">This rider is not selected</span>
+                  </div>
+
+                  <div class="simContainer02 tp0 bp0">
+                    <ul class="plusPremArea plusPremCol1">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span id="plus_cancerTemp_1000000" th:if="${template.cancerTemp eq 'selected'}">2,260</span>円</li>
+                    </ul>
+                  </div>
+
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+                      <p class="bm10">責任開始日前を含めて初めてガンと診断確定されたとき、2回目以降はガンの治療を目的として、所定の手術、放射線治療、または抗がん剤治療を受けたときに<span class="color-red">100万円</span>を受け取れます。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="cancerMonthBlock" class="selectBlock tm20">
+                <div class="checkBlockStyle01 checkBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="checkBlockReadTxt">ガンになったときに
+                      <br class="onlySMP">月ごとに備える</p>
+                  </div>
+                  
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="checkBlockReadTxt bm10">ガン治療月払給付特約</p>
+                    <span class="titStyle15Label" th:if="${template.cancerMonth eq 'selected'}">This rider is selected</span>
+                    <span class="titStyle15Label" th:unless="${template.cancerMonth eq 'selected'}">This rider is not selected</span>
+                  </div>
+
+                  <div class="simContainer02 tp0 bp0">
+                    <ul class="plusPremArea plusPremCol1">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span id="plus_cancerMonth_100000" th:if="${template.cancerMonth eq 'selected'}">1,180</span>円</li>
+                    </ul>
+                  </div>
+
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+                      <p class="bm10">ガン（悪性新生物・上皮内新生物）を月ごとの給付金で保障します。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="threeSicknessPaymentBlock" class="selectBlock tm20">
+                <div class="checkBlockStyle01 checkBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="checkBlockReadTxt">三疾病になったときの
+                      <br class="onlySMP">保険料支払の負担に備える</p>
+                  </div>
+                  
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="checkBlockReadTxt bm10">新三疾病保険料払込免除特約</p>
+                    <span class="titStyle15Label" th:if="${template.threeSicknessPayment eq 'selected'}">This rider is selected</span>
+                    <span class="titStyle15Label" th:unless="${template.threeSicknessPayment eq 'selected'}">This rider is not selected</span>
+                  </div>
+
+                  <div class="simContainer02 tp0 bp0">
+                    <ul class="plusPremArea plusPremCol1">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span th:if="${template.threeSicknessPayment eq 'selected'}">1,725</span>円</li>
+                    </ul>
+                  </div>
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+                      <p class="bm10">ガン（悪性新生物・上皮内新生物）と診断確定されたとき、心疾患・脳血管疾患で1日以上入院されたとき、または手術を受けられたとき、保険料の払い込みが不要になります。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="simContainer tp0">
+            <div class="simInnerBlock">
+              <div id="femaleSecBlock" class="selectBlock" style="display: none;">
+                <h2 class="titStyle11">女性専用の保障</h2>
+
+                <div class="checkBlockStyle01 checkBlock">
+                  <div class="simContainer02 tp0">
+                    <p class="checkBlockReadTxt">女性疾病での入院に備える</p>
+                    <!-- /.simContainer02 -->
+                  </div>
+                  <p class="iconDum">
+                    <span class="dummyTxt">女性疾病入院特約</span>
+                  </p>
+                  <div class="simContainer02 tp0 bp0">
+                    <p class="checkBlockReadTxt bm10">女性疾病入院特約</p>
+                    <span class="titStyle15Label">追加する</span>
+                    <!-- /.simContainer02 -->
+                  </div>
+
+                  <div class="simContainer02 tp0 bp0">
+                    <ul class="plusPremArea plusPremCol1">
+                      <li class="tit">月額特約保険料</li>
+                      <li class="plusPremList">＋<span id="plus_femaleSec_5000">--</span>円</li>
+                    </ul>
+                  </div>
+
+                  <div class="bottomBlock01">
+                    <div class="simContainer02">
+
+                      <div class="femaleSecInnerTextArea">
+                        <!-- <p class="bm10">「乳ガン」や「子宮筋腫」などの所定の女性疾病で1日以上入院されたとき、<span class="color-red">10万円</span>上乗せで受け取れます。</p>
+<p class="bm10">「乳ガン」や「子宮筋腫」などの所定の女性疾病で1日以上入院されたとき、10日以内は<span class="color-red">5万円</span>上乗せ、11日以上は入院1日につき<span class="color-red">5,000円</span>上乗せで受け取れます。
+</p> -->
+                        <p class="bm10">所定の女性疾病（乳ガン・子宮筋腫など）で1日以上入院したら、給付金を受け取れます。</p>
+                      </div>
+
+                      <ul class=" uFontS01 bm10">
+                        <li>この特約の型は主契約の保険契約の型と同じ型となります。</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="simContainer tp10">
+          <div class="simInnerBlock">
+            <ul class="uFontS01 bm5">
+              <li>Webの設計結果と、郵送された資料の設計内容は予定契約日が異なるため、月払い保険料の金額が異なるなどの相違がある場合がございますのでご注意ください。参照：<a href="https://www.metlife.co.jp/products/sim2/f4wl/terms.html#notes" target="_blank" class="termsLink">ご注意事項</a>
+              </li>
+            </ul>
+            <ul class="uFontS01 bm5">
+              <li>こちらから「<a href="https://www.metlife.co.jp/document/f5.pdf" target="_blank" class="linkPdf">ご契約に際しての重要事項（契約概要・注意喚起情報）</a>」をダウンロードできます。
+                <br>
+                ご検討の際にお役立てください。
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="simContainer borderT02">
+          <div class="simInnerBlock">
+            <div class="pdfBox01">
+              <p class="innerTit01">マイ フレキシィの詳しい商品内容を確認したい方へ</p>
+
+              <dl class="innerBlock01">
+                <dt>
+                  <img src="./F4WL_files/pdf_img_f5.png" alt="" class="thumbnail">
+                </dt>
+                <dd>
+                  <p class="btn buttonStyle01">
+                    <a href="javascript:goN11(&#39;5A&#39;)" class="cGreen" data-analytics="R_sim2_F4WL_select_PaperBrochure_01">紙の資料を請求</a>
+                  </p>
+
+                  <p class="btn buttonStyle01">
+                    <a href="https://www.metlife.co.jp/products/form/pdfdl-entry_f5/" class="button cBlue" data-analytics="R_sim2_F4WL_select_DigitalBrochure_01" target="_blank">
+                      PDFの資料をダウンロード
+                      <span class="subtxt01">（2.4MB）</span>
+                    </a>
+                  </p>
+
+                </dd>
+              </dl>
+
+              <ul class="uFontS01">
+                <li></li>
+                <li>お選びいただく保障金額や特約などのプランによって保険料は異なります。</li>
+                <!-- <li>「保険相談サービス」ではすべてのプランにお申し込み可能です。ご希望の際は、「対面相談で申込む」をご利用ください。</li> -->
+                <li>「保険相談サービス」ではすべてのプランにお申し込み可能です。ご希望の際は、「保険相談サービス」をご利用ください。</li>
+              </ul>
+
+            </div><!-- /.pdfBox01  -->
+
+            <!-- /.simInnerBlock -->
+          </div>
+          <!-- /.simContainer -->
+        </div>
+
+
+
+        <div style="page-break-after: always" class="simContainer">
+
+          <!-- /.simContainer -->
+        </div>
+
+        <div id="fixedArea02Wrap">
+
+          <div id="addSelectDisplay">
+            <div class="accordionWrap">
+              <p class="linkArea01">
+                <a href="javascript:void(0);" class="accordionLink noOpen">
+                  <span class="mainTxt">追加した保障</span>
+                  <span class="addSelectCount" th:text="${template.ridersNum}">${template.ridersNum}</span>
+                </a>
+              </p>
+
+              <div class="addSelectBodyArea accordionBlock">
+                <ul class="addSelectList">
+                  <li id="ad_advancedMedicine" class="">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#advancedMedicineBlock">先進医療特約</a>
+                  </li>
+                  <li id="ad_operationSec" class="">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#operationSecBlock">手術総合特約</a>
+                  </li>
+                  <li id="ad_eightSickness" class="">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#eightSicknessBlock">八疾病延長入院特約</a>
+                  </li>
+                  <li id="ad_health" class="">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#healthBlock">健康サポート特則</a>
+                  </li>
+                  <li id="ad_goHospital" class="">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#goHospitalBlock">退院後・外来手術通院特約</a>
+                  </li>
+                  <li id="ad_cancerGoHospital" class="">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#cancerGoHospitalBlock">ガン通院充実特約</a>
+                  </li>
+                  <li id="ad_threeSicknessTemp">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#threeSicknessTempBlock">新三疾病一時金特約</a>
+                  </li>
+                  <li id="ad_threeSicknessMonth" class="">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#threeSicknessMonthBlock">三疾病治療月払給付特約</a>
+                  </li>
+                  <li id="ad_cancerTemp">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#cancerTempBlock">ガン一時金特約</a>
+                  </li>
+                  <li id="ad_cancerMonth">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#cancerMonthBlock">ガン治療月払給付特約</a>
+                  </li>
+                  <li id="ad_threeSicknessPayment">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#threeSicknessPaymentBlock">新三疾病保険料払込免除特約</a>
+                  </li>
+                  <li id="ad_femaleSec">
+                    <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#femaleSecBlock">女性疾病入院特約</a>
+                  </li>
+                </ul>
+                <!-- /.accordionBlock -->
+              </div>
+
+              <!-- /.accordionWrap -->
+            </div>
+            <!-- /#addSelectDisplay -->
+          </div>
+
+          <div id="fixedArea02">
+            <div class="fixedAreaInner btn2" id="rt_sim2_f4wl">
+              <div class="leftArea">
+                <p id="blPlanName" class="bm5" style="display: inline-block;">
+                  <span class="planName">6ｲM</span>プラン
+                </p>
+                <p id="fixedPriceSet" style="display: inline-block;">月額 <span class="priceMain" th:text="${template.premium}">${template.premium}</span>円</p>
+              </div>
+              
+              <!-- /.fixedAreaInner -->
+            </div>
+            <!-- /#fixedArea02 -->
+          </div>
+
+          <!-- /#fixedArea02Wrap -->
+        </div>
+
+      </form>
+
+      <!-- /#contents -->
+    </div>
+    <!-- /#sim2Wrap -->
+  </div>
+
+  <div id="pageTopBtn" style="top: 543px; display: none;">
+    <p>
+      <a href="https://www.metlife.co.jp/products/sim2/f4wl/select.html#PAGETOP">
+        <img src="./F4WL_files/cmn_btn_02.png" alt="" width="50" height="50" class="png">
+      </a>
+    </p>
+    <!-- /.pageTopBtn -->
+  </div>
+
+  <!-- /#contentsFrame -->
+</div>
+
+
+
+
+</body></html>

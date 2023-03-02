@@ -1,0 +1,3983 @@
+@charset "Shift_JIS";
+
+/**************************************/
+/* common */
+/* header style */
+/* block style */
+/* accordion style */
+/* tab style */
+/* List style */
+/* Link style */
+/* input common style */
+/* check style (swich button) */
+/* radio style */
+/* select style */
+/* text style */
+/* button style */
+/* image style */
+/* utility */
+
+/* fixedArea */
+/* page setting */
+/* loading icon */
+/*  pluspremium */
+/*  etc */
+/*  for print */
+
+/**************************************/
+
+/* ------------------------------------------------------ */
+/* common */
+/* ------------------------------------------------------ */
+
+#footerFrame  {
+	margin-top: 0;
+}
+#footerFrame .wrapFrame  {
+	border-top: none!important;
+}
+
+@media (min-width: 768px) {
+	.onlyPC {
+		display: block!important;
+	}
+	.onlyPC_inline{
+		display:inline!important;
+	}
+	.onlyPC_inlineB{
+		display:inline-block!important;
+	}
+	.onlySMP,
+	.onlySMP_inline,
+	.onlySMP_inlineB{
+		display: none!important;
+	}
+}
+@media (max-width: 767px) {
+	#contentsFrame img {
+		width: 100%;
+	}
+	.onlyPC,
+	.onlyPC_inline,
+	.onlyPC_inlineB{
+		display: none!important;
+	}
+	.onlySMP {
+		display: block!important;
+	}
+	.onlySMP_inline{
+		display:inline!important;
+	}
+	.onlySMP_inlineB{
+		display:inline-block!important;
+	}
+}
+button {
+	font-family:'�l�r �o�S�V�b�N','Hiragino Kaku Gothic Pro','�q���M�m�p�S Pro W3',osaka, sans-serif!important;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+	cursor: pointer;
+}
+em {
+	font-style: normal;
+}
+ul {
+	list-style: none;
+}
+sup {
+	font-size: 0.7em;
+}
+a:link, 
+a:visited, 
+a:active {
+	color: #0061a0;
+}
+a:hover {
+	color: #0090da;
+}
+
+/* ------------------------------------------------------ */
+/* header style */
+/* ------------------------------------------------------ */
+#sim2Wrap .titStyle01 {
+margin-bottom: 2.0rem;
+font-size: 2.6rem;
+text-align: center;
+}
+#sim2Wrap .titStyle02 {
+margin-bottom: 3.0rem;
+text-align: center;
+font-weight: bold;
+color: #75787b;
+}
+#sim2Wrap .titStyle03 {
+margin-bottom: 2.0rem;
+font-size: 2.1rem;
+text-align: center;
+font-weight: bold;
+}
+#sim2Wrap .titStyle04 {
+margin-bottom: 2.0rem;
+font-size: 1.6rem;
+text-align: center;
+font-weight: bold;
+color: #006daf;
+}
+#sim2Wrap .titStyle05 {
+margin-bottom: 2.0rem;
+font-size: 1.6rem;
+text-align: center;
+font-weight: bold;
+}
+#sim2Wrap .titStyle06 {
+margin-bottom: 2.0rem;
+font-size: 1.7rem;
+text-align: center;
+}
+#sim2Wrap .titStyle07 {
+margin-bottom: 2.5rem;
+font-size: 1.6rem;
+text-align: center;
+}
+/*  20/03/05 add new style */
+.custom01 #sim2Wrap .titStyle07 {
+margin-bottom: 1.5rem;
+}
+#sim2Wrap .titStyle08 {
+margin-bottom: 2.0rem;
+font-size: 1.4rem;
+text-align: center;
+font-weight: bold;
+color: #0061a0;
+}
+#sim2Wrap .titStyle09 {
+margin-bottom: 2.0rem;
+font-size: 1.4rem;
+text-align: center;
+color: #75787b;
+}
+#sim2Wrap .titStyle10 {
+margin-bottom: 1.0rem;
+font-size: 1.6rem;
+font-weight: bold;
+text-align: center;
+color: #0061a0;
+}
+#sim2Wrap .titStyle11{
+margin-bottom: 1.5rem;
+text-align: center;
+font-weight: bold;
+font-size: 1.4rem;
+}
+#sim2Wrap .titStyle12 {
+box-sizing: border-box;
+margin-bottom: 1.5rem;
+padding: 1.0rem;
+background-color: #0090da;
+text-align: center;
+font-weight: bold;
+font-size: 2.1rem;
+line-height: 1.2;
+color: #ffffff;
+}
+#sim2Wrap .titStyle12 .subTxt {
+font-weight: bold;
+font-size: 1.4rem;
+}
+#sim2Wrap .titStyle13{
+margin-bottom: 1.0rem;
+text-align: center;
+font-weight: bold;
+font-size: 1.4rem;
+}
+#sim2Wrap .titStyle14 {
+box-sizing: border-box;
+padding: 0.7rem;
+background-color: #0061a0;
+text-align: center;
+font-weight: bold;
+font-size: 1.6rem;
+line-height: 1.2;
+color: #ffffff;
+}
+
+/*  20/03/05 add new style end */
+
+@media (min-width: 768px) {
+	#sim2Wrap .titStyle01 {
+		margin-bottom: 1.5rem;
+		font-size: 3.0rem;
+	}
+	#sim2Wrap .titStyle02 {
+		margin-bottom: 2.0rem;
+		font-size: 1.8rem;
+		font-weight: normal;
+	}
+	#sim2Wrap .titStyle07,
+	#sim2Wrap .titStyle10,
+	#sim2Wrap .titStyle14 {
+		font-size: 1.8rem;
+	}
+	#sim2Wrap .titStyle09,
+	#sim2Wrap .titStyle11 {
+		font-size: 1.6rem;
+	}
+	#sim2Wrap .titStyle12 .subTxt,
+	#sim2Wrap .titStyle13 {
+		font-size: 1.2rem;
+	}
+}
+
+/* ------------------------------------------------------ */
+/* block style */
+/* ------------------------------------------------------ */
+#sim2Wrap {
+margin-top: 0.2rem;
+background-color: #f2f2f2;
+font-size: 1.4rem;
+}
+/*  20/03/05 add new style */
+.custom01 #sim2Wrap {
+font-size: 1.2rem;
+}
+/*  20/03/05 add new style end */
+/*  21/01/28 add new style */
+.custom02 #sim2Wrap {
+font-size: 1.4rem;
+}
+/*  21/01/28 add new style end */
+#pageTerms #sim2Wrap {
+font-size: 1.2rem;
+}
+#sim2Wrap .simContainer{
+padding: 2.0rem;
+}
+#sim2Wrap .simContainer02{
+padding: 1.7rem;
+}
+#sim2Wrap .simContainer03{
+padding: 2.0rem;
+}
+#sim2Wrap .bgW{
+background-color: #ffffff!important;
+}
+#sim2Wrap .bgG1{
+background-color: #f2f2f2!important;
+}
+#sim2Wrap .borderT01{
+border-top: 0.2rem solid #d9d9d6;
+}
+#sim2Wrap .borderT02{
+border-top: 0.1rem solid #d9d9d6;
+}
+#sim2Wrap .borderB01{
+border-bottom: 0.2rem solid #d9d9d6;
+}
+#sim2Wrap .borderB02{
+border-bottom: 0.1rem solid #d9d9d6;
+}
+#sim2Wrap .mainBlock01 {
+box-sizing: border-box;
+padding: 3.7rem 0;
+margin: 0 auto;
+}
+#sim2Wrap .innerBlock01 {
+box-sizing: border-box;
+padding: 0 3.0rem;
+}
+#sim2Wrap .detailBlock01,
+#sim2Wrap .detailBlock02 {
+box-sizing: border-box;
+padding: 2.0rem 2.7rem;
+border: 0.1rem solid #d9d9d6;
+background-color: #ffffff;
+border-radius: 0.3rem;
+}
+#sim2Wrap .detailBlock01.normalFont01,
+#sim2Wrap .detailBlock02.normalFont01 {
+	font-size: 1.2rem;
+}
+	
+#sim2Wrap .detailBlock02 {
+padding: 0;
+}
+#sim2Wrap .detailBlock02 .topBlock{
+padding: 2.0rem 2.5rem;
+}
+#sim2Wrap .birthdayBlock {
+box-sizing: border-box;
+background-image: url(/products/sim2/images/cmn_icon_04.png);
+background-repeat: no-repeat;
+background-position: 49.5% 2.4rem;
+background-size: auto 5.5rem;
+margin-bottom: 3.0rem;
+padding: 7.5rem 1.5rem 2.0rem 2.7rem;
+font-size: 0;
+}
+#sim2Wrap .birthdayBlock.checkOK {
+background-image: url(/products/sim2/images/cmn_icon_03.png)!important;
+background-repeat: no-repeat;
+background-position: center 2.8rem!important;
+background-size: auto 3.8rem!important;
+border: 0.2rem solid #a4ce4e;
+padding: 7.4rem 1.4rem 1.9rem 2.6rem;
+}
+#sim2Wrap .bottomBtnBlock01,
+#sim2Wrap .bottomBtnBlock02,
+#sim2Wrap .bottomBtnBlock03,
+#sim2Wrap .bottomSeachBlock01{
+font-size: 0;
+text-align: center;
+}
+#sim2Wrap .bottomBtnBlock01 p,
+#sim2Wrap .bottomBtnBlock02 p,
+#sim2Wrap .bottomBtnBlock03 p,
+#sim2Wrap .bottomSeachBlock01 p{
+display: inline-block;
+width: 47%;
+vertical-align: top;
+font-size: 1.4rem;
+}
+#sim2Wrap .bottomBtnBlock01 p:nth-child(odd){
+width: 36%;
+}
+#sim2Wrap .bottomBtnBlock01 p:nth-child(even){
+width: 58%;
+}
+#sim2Wrap .bottomSeachBlock01 p:nth-child(odd){
+	width: 62%;
+}
+#sim2Wrap .bottomSeachBlock01 p:nth-child(even){
+	width: 33%;
+}
+#sim2Wrap .bottomBtnBlock01 p:nth-child(even),
+#sim2Wrap .bottomBtnBlock02 p:nth-child(even){
+margin-left: 6%;
+}
+#sim2Wrap .bottomSeachBlock01 p:nth-child(even){
+margin-left: 5%;
+}
+#sim2Wrap .bottomBtnBlock03 p{
+width: 100%;
+margin-top: 2rem;
+}
+#sim2Wrap .bottomBtnBlock03 p:first-child{
+margin-top: 0;
+}
+
+#sim2Wrap .headerBlock02 {
+padding: 1.5rem 2.0rem;
+}
+#sim2Wrap .headerBlock02 .topBlock {
+margin-bottom: 1.8rem;
+padding-bottom: 1.0rem;
+border-bottom: 0.1rem solid #d9d9d6;
+}
+#sim2Wrap .headerBlock02 .topReadBlock {
+margin-bottom: 1.0rem;
+}
+#sim2Wrap .headerBlock02 .topBlock .blockLeft {
+float: left;
+box-sizing: border-box;
+}
+#sim2Wrap .headerBlock02 .topBlock .mainRead,
+#sim2Wrap .headerBlock02 .topBlock .prodName {
+display:inline-block;
+font-size: 1.2rem;
+font-weight: bold;
+}
+#sim2Wrap .headerBlock02 .topBlock .blockRight {
+float: right;
+padding: 0.2rem 0 0 0.8rem;
+}
+#sim2Wrap .headerBlock02 .topConditionBlock {
+text-align: center;
+}
+#sim2Wrap .headerBlock02 .topConditionBlock .txt01 {
+font-size: 1.1rem;
+}
+#sim2Wrap .headerBlock02 .topConditionBlock .txt02 {
+font-size: 1.0rem;
+font-weight: bold;
+}
+/*  20/03/05 add new style */
+.custom01 #sim2Wrap .headerBlock02 .topReadBlock {
+margin-bottom: 0.3rem;
+}
+.custom01 #sim2Wrap .headerBlock02 .topBlock .mainRead,
+.custom01 #sim2Wrap .headerBlock02 .topBlock .prodName {
+display: block;
+font-size: 1.4rem;
+margin-bottom: 0.3rem;
+}
+.custom01 #sim2Wrap .headerBlock02 .topBlock .mainRead{
+margin-bottom: 0;
+}
+
+.custom01 #sim2Wrap .headerBlock02 .topConditionBlock .txt02 {
+margin-bottom: 0.2rem;
+}
+.custom01 #sim2Wrap .headerBlock02 .topConditionBlock {
+text-align: left;
+}
+.custom01 #sim2Wrap .headerBlock02 .topBlock .blockRight {
+text-align: right;
+}
+/*  20/03/05 add new style end */
+#sim2Wrap .headerBlock02 .bottomBlock {
+display: table;
+width: 100%;
+margin-bottom: 1.5rem;
+}
+.custom01 #sim2Wrap .headerBlock02 .bottomBlock {
+margin-bottom: 1.2rem;
+}
+
+#sim2Wrap .headerBlock02 .bottomBlock .blockLeft {
+display: table-cell;
+width: 49%;
+padding-right:3%;
+box-sizing: border-box;
+vertical-align: middle;
+text-align: left;
+font-size: 1.6rem;
+}
+#sim2Wrap .headerBlock02 .bottomBlock .blockRight {
+display: table-cell;
+width: 48%;
+box-sizing: border-box;
+vertical-align: middle;
+text-align: right;
+}
+#sim2Wrap .bottomGrayBlock,
+#sim2Wrap .bottomGrayBlock02{
+padding: 2.0rem;
+background-color: #f2f2f2;
+}
+#sim2Wrap .bottomGrayBlock {
+border-radius: 0 0 0.3rem 0.3rem / 0 0 0.3rem 0.3rem;
+}
+#sim2Wrap .bnrBlock01{
+max-width: 520px;
+margin: 3.0rem auto 0;
+}
+
+#sim2Wrap .bnrBlock01{
+max-width: 520px;
+margin: 3.0rem auto 0;
+}
+
+#sim2Wrap .borderBlock01{
+margin-bottom: 2.0rem;
+border: 0.1rem solid #d9d9d6;
+}
+#sim2Wrap .borderBlock01 .title01{
+padding: 0.5rem;
+background-color: #f2f2f2;
+text-align: center;
+font-size: 1.4rem;
+}
+#sim2Wrap .borderBlock01 .innerBlock01{
+padding: 1.0rem;
+}
+#sim2Wrap .borderBlock01 .innerBlock02{
+padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    #sim2Wrap {
+		font-size: 1.3rem;
+		border-bottom: 0.1rem solid #d9d9d6;
+	}
+	/*  20/03/05 add new style */
+	.custom01 #sim2Wrap {
+		font-size: 1.2rem;
+	}
+	/*  20/03/05 add new style end */
+	/*  21/01/28 add new style */
+	.custom02 #sim2Wrap {
+		font-size: 1.2rem;
+	}
+	/*  21/01/28 add new style end */
+    #pageTerms #sim2Wrap {
+		font-size: 1.0rem;
+	}
+	#sim2Wrap .simInnerBlock,
+	#sim2Wrap .mainBlock01,
+	#sim2Wrap #fixedArea02 .fixedAreaInner {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #sim2Wrap .simInnerBlock02{
+        width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	#sim2Wrap .simInnerBlock03,
+	#sim2Wrap #fixedArea01 .fixedAreaInner{
+        width: 580px;
+        margin-left: auto;
+        margin-right: auto;
+	}
+	#sim2Wrap .mainBlock01 .innerBlock01 {
+		padding: 0;
+	}
+	#sim2Wrap .detailBlock01.normalFont01,
+	#sim2Wrap .detailBlock02.normalFont01 {
+		padding: 1.5rem;
+		border: 0.05rem solid #d9d9d6;
+		border-radius:0;
+		font-size: 0.9rem;
+	}
+	#sim2Wrap .birthdayBlock {
+		background-position: 2.0rem 3.0rem;
+		background-size: auto 4.5rem;
+		margin-bottom: 3.5rem;
+		padding: 3.0rem 1.0rem 3.0rem 9.0rem;
+	}
+	#sim2Wrap .birthdayBlock.checkOK {
+		background-position: 2.5rem 3.1rem!important;
+		background-size: auto 4.0rem!important;
+		border: 0.3rem solid #a4ce4e;
+		padding: 2.8rem 0.8rem 2.8rem 8.8rem;
+	}
+	#sim2Wrap .bottomBtnBlock00,
+	#sim2Wrap .bottomBtnBlock01{
+		width: 516px;
+        margin-left: auto;
+        margin-right: auto;
+	}
+	#sim2Wrap .headerBlock02 .topBlock .mainRead,
+	#sim2Wrap .headerBlock02 .topBlock .prodName {
+		line-height: 1.2;
+		font-size: 1.8rem;
+	}
+	#sim2Wrap .headerBlock02 .topConditionBlock .txt01 {
+		font-size: 1.2rem;
+	}
+	#sim2Wrap .headerBlock02 .topConditionBlock .txt02 {
+		font-size: 1.1rem;
+	}
+	/*  20/03/05 add new style */
+	.custom01 #sim2Wrap .headerBlock02 .topBlock .mainRead,
+	.custom01 #sim2Wrap .headerBlock02 .topBlock .prodName {
+		display: inline-block;
+		font-size: 1.8rem;
+		margin-bottom: 0.8rem;
+	}
+	.custom01 #sim2Wrap .headerBlock02 .topBlock .blockRight p {
+		margin-bottom: 0.1rem;
+	}
+	/*  20/03/05 add new style end */
+	#sim2Wrap .bottomSeachBlock01 p:nth-child(odd){
+		width: 70%;
+	}
+	#sim2Wrap .bottomSeachBlock01 p:nth-child(even){
+		width: 25%;
+	}
+	#sim2Wrap .bottomBtnBlock03 p{
+		width: 47%;
+		margin-top: 0;
+		margin-left: 6%;
+	}
+	#sim2Wrap .bottomBtnBlock03 p:first-child{
+		margin-left: 0;
+	}
+	#sim2Wrap .headerBlock02 .bottomBlock .blockLeft {
+		width: 62%;
+		font-size: 1.9rem;
+	}
+	#sim2Wrap .headerBlock02 .bottomBlock .blockRight {
+		width: 35%;
+	}
+	#sim2Wrap .bnrBlock01{
+		margin-top: 3.5rem;
+	}
+	#sim2Wrap .borderBlock01 .title01{
+	font-size: 1.2rem;
+	}
+
+}
+/* ------------------------------------------------------ */
+/* box style */
+/* ------------------------------------------------------ */
+#sim2Wrap .boxStyle01{
+padding: 1.0rem;
+text-align: center;
+}
+#sim2Wrap .boxStyle01.bgBlue{
+background-color: #0090da;
+color: #ffffff;
+}
+#sim2Wrap .boxStyle01.bgGreen{
+background-color: #a4ce4e;
+color: #ffffff;
+}
+#sim2Wrap .boxStyle02{
+padding: 1.0rem;
+border: 0.1rem solid #db0a5b;
+}
+#sim2Wrap .boxStyle03{
+padding: 1rem;
+border: 1px solid #d9d9d6;
+background: #fff;
+}
+@media (max-width: 767px) {
+#sim2Wrap .boxStyle03 .titStyle02{
+margin-bottom: 1.5rem;
+}
+}
+
+/* ------------------------------------------------------ */
+/* accordion style */
+/* ------------------------------------------------------ */
+#sim2Wrap .accordionBlock{
+display: none;
+}
+
+/* ------------------------------------------------------ */
+/* tab style */
+/* ------------------------------------------------------ */
+#sim2Wrap .simTabLink01{
+display: flex;
+border: 0.1rem solid #d9d9d6;
+border-bottom: 0.2rem solid #d9d9d6;
+border-radius: 0.3rem;
+background-color: #ffffff;
+}
+#sim2Wrap .simTabLink01 li{
+display: inline-block;
+box-sizing: border-box;
+text-align: center;
+width: 34%;
+}
+#sim2Wrap .simTabLink01 li a:link,
+#sim2Wrap .simTabLink01 li a:visited,
+#sim2Wrap .simTabLink01 li a:active,
+#sim2Wrap .simTabLink01 li a:hover,
+#sim2Wrap .simTabLink01 li a{
+color: #333333;
+}
+#sim2Wrap .simTabLink01 li a{
+display: block;
+height: 100%;
+border-left: 0.1rem solid #d9d9d6;
+}
+#sim2Wrap .simTabLink01 li:first-child a{
+border-left: none;
+}
+
+#sim2Wrap .simTabLink01 li .tabTxtSet,
+#sim2Wrap .simTabLink01 li .tabTxt01,
+#sim2Wrap .simTabLink01 li .tabTxt02,
+#sim2Wrap .simTabLink01 li .tabTxt03,
+#sim2Wrap .simTabLink01 li .tabTxt04{
+display: block;
+}
+#sim2Wrap .simTabLink01 li .tabTxt01{
+padding: 0.5rem 0 0.4rem;
+background-color: #f2f2f2;
+border-bottom: 0.1rem solid #d9d9d6;
+font-size: 1.2rem;
+font-weight: bold;
+}
+#sim2Wrap .simTabLink01 li:first-child .tabTxt01{
+border-radius: 0.3rem 0 0 0 / 0.3rem 0 0 0;
+}
+#sim2Wrap .simTabLink01 li:last-child .tabTxt01{
+border-radius: 0 0.3rem 0 0 / 0 0.3rem 0 0;
+}
+#sim2Wrap .simTabLink01 li .tabTxtSet{
+padding: 0.6rem 0.6rem 0.2rem;
+}
+#sim2Wrap .simTabLink01 li .tabTxt02{
+margin-bottom: 0.7rem;
+line-height: 1.2;
+font-size: 1.1rem;
+font-weight: bold;
+}
+#sim2Wrap .simTabLink01 li .tabTxt03{
+color: #75787b;
+font-size: 1.0rem;
+font-weight: bold;
+}
+#sim2Wrap .simTabLink01 li .tabTxt04{
+margin-bottom: 0.4rem;
+font-size: 1.6rem;
+font-weight: bold;
+}
+#sim2Wrap .simTabLink01 li .tabTxt04 span{
+font-weight: bold;
+}
+#sim2Wrap .simTabLink01 li.curr a:link,
+#sim2Wrap .simTabLink01 li.curr a:visited,
+#sim2Wrap .simTabLink01 li.curr a:active,
+#sim2Wrap .simTabLink01 li.curr a:hover,
+#sim2Wrap .simTabLink01 li.curr a,
+#sim2Wrap .simTabLink01 li.curr .tabTxt03{
+color: #ffffff;
+}
+
+#sim2Wrap .simTabLink01 li.curr a,
+#sim2Wrap .simTabLink01 li.curr .tabTxt01{
+background-color: #0061a0;
+}
+#sim2Wrap .simTabLink01 li:first-child.curr a{
+border-radius: 0.3rem 0 0 0.3rem / 0.3rem 0 0 0.3rem;
+}
+#sim2Wrap .simTabLink01 li:last-child.curr a{
+border-radius: 0 0.3rem 0.3rem 0 / 0 0.3rem 0.3rem 0;
+}
+#sim2Wrap .simTabBlock .tabItem {
+display: none;
+}
+#sim2Wrap .conditionBlock01 .conditionList{
+display: table;
+width: 100%;
+padding: 1.0rem 0 0.8rem;
+border-top: 0.1rem solid #d9d9d6;
+}
+#sim2Wrap .conditionBlock01 .conditionList:first-of-type{
+border-top: none;
+padding-top: 0;
+}
+#sim2Wrap .conditionBlock01 .conditionList dt,
+#sim2Wrap .conditionBlock01 .conditionList dd{
+display: table-cell;
+vertical-align: middle;
+}
+#sim2Wrap .conditionBlock01 .conditionList dt{
+width: 75%;
+font-size: 1.6rem;
+}
+#sim2Wrap .conditionBlock01 .conditionList dt .subTxt01{
+display: inline-block;
+font-size: 1.1rem;
+}
+#sim2Wrap .conditionBlock01 .conditionList dd{
+width: 25%;
+text-align: right;
+}
+#sim2Wrap .conditionBlock01 .conditionList dd p{
+font-size: 1.4rem;
+font-weight: bold;
+}
+#sim2Wrap .conditionBlock01 .conditionList dd p span{
+font-weight: bold;
+}
+#sim2Wrap .conditionBlock01 .conditionList dd .subTxt01{
+display: block;
+font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+	#sim2Wrap .simTabLink01 li .tabTxtSet{
+		padding: 0.8rem 0.8rem 0.4rem;
+	}
+	#sim2Wrap .simTabLink01 li .tabTxt04{
+		font-size: 2.0rem;
+		line-height: 1.4;
+	}
+	#sim2Wrap .conditionBlock01 .conditionList dt{
+		font-size: 1.8rem;
+	}
+
+
+}
+
+/* ------------------------------------------------------ */
+/* List style */
+/* ------------------------------------------------------ */
+#sim2Wrap .listPointStyle01 li {
+position: relative;
+margin-top: 0.3em;
+padding-left: 1em;
+}
+#sim2Wrap .listPointStyle01 li:first-child {
+margin-top: 0;
+}
+#sim2Wrap .listPointStyle01 li:before {
+content: "��";
+font-size: 0.9em;
+position: absolute;
+left: 0;
+top: 0;
+}
+
+.listPoint,
+.listDisc,
+.listCircle,
+.listKome,
+.listStar,
+.listAsterisk,
+.listDecimal,
+.listDecimalStar,
+.listDecimalKome,
+.listDecimalAsterisk {
+	position: relative;
+}
+
+.listPoint li,
+.listDisc li,
+.listCircle li,
+.listKome li,
+.listStar li,
+.listAsterisk li,
+.listDecimal li {
+	margin-top: 0.3em;
+	padding-left: 1em;
+}
+
+.listDecimalStar li,
+.listDecimalKome li,
+.listDecimalAsterisk li {
+	margin-top: 0.3em;
+	padding-left: 2em;
+}
+
+.listPoint.chara2 li,
+.listDisc.chara2 li,
+.listCircle.chara2 li,
+.listKome.chara2 li,
+.listStar.chara2 li,
+.listAsterisk.chara2 li,
+.listDecimal.chara2 li {
+	padding-left: 2em;
+}
+
+.listPoint li:first-child,
+.listDisc li:first-child,
+.listCircle li:first-child,
+.listKome li:first-child,
+.listStar li:first-child,
+.listAsterisk li:first-child,
+.listDecimal li:first-child,
+.listDecimalStar li:first-child,
+.listDecimalKome li:first-child,
+.listDecimalAsterisk li:first-child {
+	margin-top: 0;
+}
+
+.listPoint li:before {
+	content: "�E";
+	position: absolute;
+	left: 0;
+}
+
+.listDisc li:before {
+	content: "��";
+	position: absolute;
+	left: 0;
+}
+
+.listCircle li:before {
+	content: "��";
+	position: absolute;
+	left: 0;
+}
+
+.listKome li:before {
+	content: "��";
+	position: absolute;
+	left: 0;
+}
+
+.listStar li:before {
+	content: "��";
+	position: absolute;
+	left: 0;
+}
+
+.listAsterisk li:before {
+	content: "*";
+	position: absolute;
+	left: 0.2em;
+}
+
+.listDecimal li:before {
+	content: attr(data-num);
+	position: absolute;
+	left: 0;
+}
+
+.listPoint.chara2 li:before {
+	left: 0.5em;
+}
+
+.listDisc.chara2 li:before {
+	left: 0.5em;
+}
+
+.listCircle.chara2 li:before {
+	left: 0.5em;
+}
+
+.listKome.chara2 li:before {
+	left: 0.5em;
+}
+
+.listStar.chara2 li:before {
+	left: 0.5em;
+}
+
+.listAsterisk.chara2 li:before {
+	left: 0.5em;
+}
+
+.listDecimal.chara2 li:before {
+	left: 0.5em;
+}
+
+.listDecimalStar li:before {
+	content: "��"attr(data-num);
+	position: absolute;
+	left: 0;
+}
+
+.listDecimalKome li:before {
+	content: "��"attr(data-num);
+	position: absolute;
+	left: 0;
+}
+
+.listDecimalAsterisk li:before {
+	content: "*"attr(data-num);
+	position: absolute;
+	left: 0.3em;
+}
+
+.listDecimalStar li:nth-child(n+10),
+.listDecimalKome li:nth-child(n+10),
+.listDecimalAsterisk li:nth-child(n+10) {
+	padding-left: 2.4em;
+}
+.listAttention01 li {
+	position: relative;
+	margin-top: 0.3em;
+	padding-left: 2.3em;
+}
+.listAttention01 li:before {
+	content: "";
+	position: absolute;
+	left: 0;
+    width: 1.6em;
+    height: 1.4em;
+    background: url(/products/sim2/images/cmn_icon_44.png) no-repeat top left;
+    background-size: 100% 100%;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+.parallelList li {
+	position: relative;
+	display: inline-block;
+}
+
+@media (min-width: 768px) {
+	#sim2Wrap .listPointStyle01 li:before {
+		top: 0.1em;
+	}
+}
+
+/* ------------------------------------------------------ */
+/* Link style */
+/* ------------------------------------------------------ */
+#sim2Wrap a:link,
+#sim2Wrap a:visited,
+#sim2Wrap a:active,
+#sim2Wrap a:hover,
+#sim2Wrap a{
+text-decoration: none;
+}
+#sim2Wrap .parallelLink01{
+display: inline-block;
+vertical-align: bottom;
+margin-left: 1.3rem;
+}
+.pdflink:after {
+content: "";
+display: inline-block;
+background: url(/common/images_v4/cmn_ic_07.png) no-repeat top left;
+background-size: 14px 12px;
+width: 14px;
+height: 12px;
+margin: 0 0.1em 0 0.3em;
+vertical-align: middle;
+}
+
+.linkPop.pdflink:after,
+.linkInfo.pdflink:after,
+.linkDiscArrow.pdflink:after,
+.linkDiscArrowDown.pdflink:after,
+.linkArrow.pdflink:after,
+.linkArrowDown.pdflink:after {
+	vertical-align: top;
+	margin-top: 0.2rem;
+}
+.iconLinkSim01:before {
+	position: relative;
+	top: 0.2em;
+	display: inline-block;
+	margin-right: 0.3em;
+	width: 1.2em;
+	height: 1.2em;
+	content: "";
+	background-image: url(/products/sim2/images/cmn_icon_30.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/* ------------------------------------------------------ */
+/* input common style */
+/* ------------------------------------------------------ */
+#sim2Wrap .checkBlockStyle01,
+#sim2Wrap .radioBlockStyle01{
+border: 0.2rem solid #d9d9d6;
+border-radius: 0.3rem;
+padding: 1.5rem 0 0;
+}
+#sim2Wrap .checkBlockStyle01,
+#sim2Wrap .radioBlockStyle01{
+background-color: #ffffff;
+}
+#sim2Wrap .checkBlockStyle01 .bottomBlock,
+#sim2Wrap .radioBlockStyle01 .bottomBlock{
+background-color: #f2f2f2;
+border-radius: 0 0 0.3rem 0.3rem / 0 0 0.3rem 0.3rem;
+}
+#sim2Wrap .checkBlockStyle01.checked,
+#sim2Wrap .radioBlockStyle01.selected{
+border: 0.2rem solid #a4ce4e !important;
+}
+#sim2Wrap .checkBlockStyle01.topLineBlue.checked{
+padding: 1.7rem 0 0 !important;
+}
+#sim2Wrap .checkBlockStyle01 .blockTxt01,
+#sim2Wrap .radioBlockStyle01 .blockTxt01{
+text-align: center;
+margin-bottom: 1.5rem;
+}
+/*  20/03/05 add new style */
+.custom01 #sim2Wrap .checkBlockStyle01 .blockTxt01 {
+text-align: left;
+}
+/*  20/03/05 add new style end */
+
+#sim2Wrap .checkBlockStyle01 .bottomBlock01,
+#sim2Wrap .radioBlockStyle01 .bottomBlock01{
+margin-top: 2.0rem;
+border-top: 0.2rem solid #d9d9d6;
+}
+
+
+@media (min-width: 768px) {
+	#sim2Wrap .checkBlockStyle01,
+	#sim2Wrap .radioBlockStyle01{
+		border: 0.3rem solid #d9d9d6;
+	}
+
+	#sim2Wrap .checkBlockStyle01.checked,
+	#sim2Wrap .radioBlockStyle01.selected{
+		border: 0.3rem solid #a4ce4e !important;
+	}
+	#sim2Wrap .checkBlockStyle01 .blockTxt01,
+	#sim2Wrap .radioBlockStyle01 .blockTxt01{
+		font-size: 1.5rem;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+	/*  20/03/05 add new style */
+	.custom01 #sim2Wrap .checkBlockStyle01 .blockTxt01,
+	.custom01 #sim2Wrap .radioBlockStyle01 .blockTxt01 {
+		font-size: 1.2rem;
+	}
+	/*  20/03/05 add new style end */
+
+}
+
+/* ------------------------------------------------------ */
+/* check style (swich button) */
+/* ------------------------------------------------------ */
+/* check block style  */
+#sim2Wrap .checkBlockStyle01.topLineBlue{
+border-top: 0.4rem solid #0061a0;
+}
+#sim2Wrap .checkBlockStyle01 .icon,
+#sim2Wrap .checkBlockStyle01 .icon2,
+#sim2Wrap .checkBlockStyle01 .iconDum,
+#sim2Wrap .radioBlockStyle01 .iconDum{
+text-align: center;
+margin-bottom: 1.8rem;
+}
+#sim2Wrap .checkBlockStyle01 .checkBlockReadTxt{
+padding: 0 1.0rem;
+text-align: center;
+font-weight: bold;
+}
+/*  20/03/05 add new style */
+.custom01 #sim2Wrap .checkBlockStyle01 .checkBlockReadTxt {
+padding: 0;
+font-size: 1.4rem;
+}
+/*  20/03/05 add new style end */
+#sim2Wrap .checkBlockStyle01 .checkBlockReadTxt span{
+font-weight: bold;
+}
+
+#sim2Wrap .checkBlockStyle01 .iconDum,
+#sim2Wrap .radioBlockStyle01 .iconDum{
+height: 6.0rem;
+}
+#sim2Wrap .checkBlockStyle01 .iconDum span.dummyTxt,
+#sim2Wrap .radioBlockStyle01 .iconDum span.dummyTxt{
+display: none;
+}
+#sim2Wrap #advancedMedicineBlock .checkBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_18.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #femaleSecBlock .checkBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_20.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #femaleSecSupBlock .checkBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_43.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #healthBlock .checkBlockStyle01 .iconDum,
+#sim2Wrap #healthBlock .radioBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_12.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #cancerTempBlock .checkBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_42.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #shortHospBlock .checkBlockStyle01 .iconDum,
+#sim2Wrap #goHospitalBlock .checkBlockStyle01 .iconDum,
+#sim2Wrap #goHospitalBlock .radioBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_19.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #cancerGoHospitalBlock .checkBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_38.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #sevenSicknessBlock .checkBlockStyle01 .iconDum,
+#sim2Wrap #threeSicknessBlock .checkBlockStyle01 .iconDum,
+#sim2Wrap #eightSicknessBlock .checkBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_14.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #specificSicknessBlock .checkBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_15.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #operationSecBlock .radioBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_10.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #threeSicknessTempBlock .checkBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_41.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #dementiaBlock .checkBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_36.png) center center no-repeat;
+background-size: contain;
+}
+#sim2Wrap #fractureBlock .checkBlockStyle01 .iconDum{
+background: url(/products/sim2/images/cmn_icon_37.png) center center no-repeat;
+background-size: contain;
+}
+
+#sim2Wrap #advancedMedicineBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #femaleSecBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #femaleSecSupBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #healthBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #healthBlock .radioBlockStyle01.selected .iconDum,
+#sim2Wrap #cancerTempBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #shortHospBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #goHospitalBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #cancerGoHospitalBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #sevenSicknessBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #eightSicknessBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #threeSicknessBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #specificSicknessBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #operationSecBlock .radioBlockStyle01.selected .iconDum,
+#sim2Wrap #threeSicknessTempBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #dementiaBlock .checkBlockStyle01.checked .iconDum,
+#sim2Wrap #fractureBlock .checkBlockStyle01.checked .iconDum{
+background: url(/products/sim2/images/cmn_icon_03.png) center center no-repeat;
+background-size: contain;
+}
+@media (min-width: 768px) {
+	#sim2Wrap .checkBlockStyle01 .checkBlockReadTxt{
+		font-size: 1.6rem;
+	}
+	/*  20/03/05 add new style */
+	.custom01 #sim2Wrap .checkBlockStyle01 .checkBlockReadTxt {
+		font-size: 1.6rem;
+	}
+	/*  20/03/05 add new style end */
+}
+
+/* check style  */
+#sim2Wrap .checkStyle01{
+display: table;
+width: 100%;
+margin: auto;
+}
+#sim2Wrap .checkStyle01 input[type="checkbox"]{
+display: none;
+}
+
+#sim2Wrap .checkStyle01 label{
+display: table-cell;
+width: 100%;
+height: 6.3rem;
+box-sizing: border-box;
+box-shadow: 0.1rem 0.2rem 0.3rem 0 rgba(100, 100, 100, 0.6);
+padding: 0.5rem 1.5rem;
+border: 0.1rem solid #d9d9d6;
+border-radius: 0.3rem;
+background-color: #ffffff;
+vertical-align: middle;
+text-align: center;
+line-height: 1.3;
+font-size: 1.4rem;
+font-weight: bold;
+color:#0061a0;
+cursor: pointer;
+}
+#sim2Wrap .checkStyle01 label span{
+font-weight: bold;
+}
+#sim2Wrap .checkStyle01 label.plusDetail span.mainTxt,
+#sim2Wrap .checkStyle01 label.plusDetail span.subTxt{
+display: block;
+}
+#sim2Wrap .checkStyle01 label.plusDetail span.subTxt{
+display: none;
+margin-top: 0.5rem;
+font-size: 1.1rem;
+font-weight: normal;
+}
+#sim2Wrap .checkStyle01 input[type="checkbox"][disabled] + label.plusDetail span.subTxt{
+display: block;
+}
+#sim2Wrap .checkStyle01 input[type="checkbox"].ageDisabled + label.plusDetail span.subTxt{
+display: none;
+}
+
+#sim2Wrap .checkStyle01 input[type="checkbox"]:checked + label{
+border: 0.1rem solid #0061a0;
+background-color: #0061a0;
+color:#ffffff;
+}
+#sim2Wrap .checkStyle01 input[type="checkbox"][disabled] + label{
+box-shadow: none;
+border: 0.1rem solid #d9d9d6;
+background-color: #d9d9d6;
+color:#75787b;
+}
+
+@media (min-width: 768px) {
+	#sim2Wrap .checkBlockStyle01 .checkStyle01{
+		display: table;
+		width: 70%;
+	}
+
+	#sim2Wrap .checkBlockStyle01 .checkStyle01 label{
+		font-size: 1.6rem;
+		height: 5.0rem;
+	}
+	#sim2Wrap .checkStyle01 label.plusDetail span.subTxt{
+		margin-top: 0.3rem;
+		font-size: 1.0rem;
+	}
+}
+
+/* ------------------------------------------------------ */
+/* radio style */
+/* ------------------------------------------------------ */
+/* radio block style */
+
+/*  20/03/05 add new style */
+.custom01 #sim2Wrap .radioBlockReadTxt {
+font-size: 1.4rem;
+font-weight: bold;
+text-align: center;
+margin-bottom: 1.5rem;
+}
+/*  20/03/05 add new style end */
+
+#sim2Wrap .radioBlockCol3,
+#sim2Wrap .radioBlockCol4{
+width: 100%;
+margin: auto;
+}
+#sim2Wrap .radioBlockCol3 li,
+#sim2Wrap .radioBlockCol4 li{
+display: table;
+float: left;
+vertical-align: middle;
+text-align: center;
+line-height: 1.3;
+}
+#sim2Wrap .radioBlockCol3 li{
+width: 33%;
+}
+#sim2Wrap .radioBlockCol4 li{
+width: 25%;
+}
+#sim2Wrap .radioBlockCol3 li input[type="radio"],
+#sim2Wrap .radioBlockCol4 li input[type="radio"]{
+display: none;
+}
+#sim2Wrap .radioBlockCol3 li label,
+#sim2Wrap .radioBlockCol4 li label{
+display: table-cell;
+box-sizing: border-box;
+height: 6.3rem;
+padding: 0.3rem 0.5rem;
+vertical-align: middle;
+text-align: center;
+border: 0.1rem solid #d9d9d6;
+border-left: none;
+color:#0061a0;
+font-weight: bold;
+}
+#sim2Wrap .radioBlockCol3.fitStyle02 li label,
+#sim2Wrap .radioBlockCol4.fitStyle02 li label{
+height: 6.0rem;
+font-size: 1.0rem;
+}
+#sim2Wrap .radioBlockCol3.fitStyle03 li label,
+#sim2Wrap .radioBlockCol4.fitStyle03 li label{
+height: 9.5rem;
+}
+
+#sim2Wrap .radioBlockCol3 li:first-child label,
+#sim2Wrap .radioBlockCol4 li:first-child label{
+border-left: 0.1rem solid #d9d9d6;
+border-radius: 0.3rem 0 0 0.3rem;
+}
+#sim2Wrap .radioBlockCol3 li:last-child label,
+#sim2Wrap .radioBlockCol4 li:last-child label{
+border-radius: 0 0.3rem 0.3rem 0;
+}
+#sim2Wrap .radioBlockCol3 input[type="radio"]:checked + label,
+#sim2Wrap .radioBlockCol4 input[type="radio"]:checked + label{
+background-color: #0061a0;
+border-color: #0061a0;
+color: #ffffff;
+}
+#sim2Wrap .radioBlockCol3 input[type="radio"][disabled] + label,
+#sim2Wrap .radioBlockCol4 input[type="radio"][disabled] + label{
+box-shadow: none;
+background-color: #d9d9d6;
+border-color: #d9d9d6;
+color:#75787b;
+}
+
+@media (min-width: 768px) {
+	/*  20/03/05 add new style */
+	.custom01 #sim2Wrap .radioBlockReadTxt {
+	font-size: 1.6rem;
+	}
+	/*  20/03/05 add new style end */
+	#sim2Wrap .radioBlockCol3,
+	#sim2Wrap .radioBlockCol4{
+		width: 70%;
+	}
+	#sim2Wrap .radioBlockCol3 li label,
+	#sim2Wrap .radioBlockCol4 li label{
+		height: 5.0rem;
+	}
+	#sim2Wrap .radioBlockCol3.fitStyle02 li label,
+	#sim2Wrap .radioBlockCol4.fitStyle02 li label{
+		height: 5.0rem;
+		font-size: 1.0rem;
+	}
+	#sim2Wrap .radioBlockCol3.fitStyle03 li label,
+	#sim2Wrap .radioBlockCol4.fitStyle03 li label{
+	height: 7.5rem;
+	}
+}
+
+/* radio style */
+#sim2Wrap .radioStyle01,
+#sim2Wrap .radioStyle02{
+margin-bottom: 3.0rem;
+font-size: 0;
+}
+#sim2Wrap .radioStyle01 li,
+#sim2Wrap .radioStyle02 li{
+font-size: 1.4rem;
+}
+#sim2Wrap .radioStyle01 input,
+#sim2Wrap .radioStyle02 input{
+display: none;
+}
+#sim2Wrap .radioStyle01.radioBlock_index li,
+#sim2Wrap .radioStyle01.radioBlock_category li{
+box-sizing: border-box;
+display:inline-block;
+width: 47%;
+margin-top: 6%;
+margin-left: 6%;
+vertical-align: bottom;
+}
+#sim2Wrap .radioStyle01.radioBlock_index li:first-child,
+#sim2Wrap .radioStyle01.radioBlock_index li:nth-child(2),
+#sim2Wrap .radioStyle01.radioBlock_category li:first-child,
+#sim2Wrap .radioStyle01.radioBlock_category li:nth-child(2){
+margin-top: 0;
+}
+#sim2Wrap .radioStyle01.radioBlock_index li:first-child{
+margin-left: 0;
+}
+#sim2Wrap .radioStyle01.radioBlock_category li:nth-child(2n+1) {
+margin-left: 0;
+}
+#sim2Wrap .radioStyle01 label{
+display:block;
+box-sizing: border-box;
+text-align: center;
+padding: 7.0rem 0.5rem 1.0rem;
+background-color: #ffffff;
+box-shadow: none;
+border: 0.1rem solid #d9d9d6;
+border-radius: 0.3rem;
+}
+
+#sim2Wrap .radioStyle01 label .wrapTable{
+display: table;
+width: 100%;
+height: 4.5rem;
+}
+#sim2Wrap .radioStyle01 label .innerTxt{
+display: table-cell;
+vertical-align: middle;
+color: #a7a8aa;
+line-height: 1.3;
+text-align: center;
+font-weight: bold;
+font-size: 1.4rem;
+}
+#sim2Wrap .radioStyle01 input[type="radio"]:checked + label {
+background-image: url(/products/sim2/images/cmn_icon_03.png)!important;
+background-position: center 2.6rem!important;
+background-size: auto 3.8rem!important;
+border: 0.2rem solid #a4ce4e;
+padding: 6.9rem 0.4rem 0.9rem;
+}
+#sim2Wrap .radioStyle01 input[type="radio"][disabled] + label{
+background-color: #f2f2f2;
+}
+#sim2Wrap input#woman + label,
+#sim2Wrap input#man + label,
+#sim2Wrap input#category_medical + label,
+#sim2Wrap input#category_cancer + label,
+#sim2Wrap input#category_life + label,
+#sim2Wrap input#category_si + label{
+background-repeat: no-repeat;
+background-position: center 2.1rem;
+background-size: auto 4.6rem;
+}
+#sim2Wrap input#woman + label {
+background-image: url(/products/sim2/images/cmn_icon_01.png);
+}
+#sim2Wrap input#man + label {
+background-image: url(/products/sim2/images/cmn_icon_21.png);
+}
+#sim2Wrap input#category_medical + label {
+background-image: url(/products/sim2/images/cmn_icon_05.png);
+}
+#sim2Wrap input#category_cancer + label {
+background-image: url(/products/sim2/images/cmn_icon_06.png);
+}
+#sim2Wrap input#category_life + label {
+background-image: url(/products/sim2/images/cmn_icon_07.png);
+background-size: auto 3.8rem;
+background-position: center 2.3rem;
+}
+#sim2Wrap input#category_si + label {
+background-image: url(/products/sim2/images/cmn_icon_08.png);
+background-position: center 1.9rem;
+background-size: auto 4.4rem;
+}
+
+#sim2Wrap .radioStyle01.radioBlock_category label{
+padding: 4.5rem 0.5rem 0.3rem;
+}
+#sim2Wrap .radioStyle01.radioBlock_category input[type="radio"]:checked + label {
+padding: 4.4rem 0.4rem 0.2rem;
+background-size: auto 2.8rem!important;
+background-position: center 1.8rem!important;
+}
+#sim2Wrap .radioStyle01.radioBlock_category input#category_medical + label,
+#sim2Wrap .radioStyle01.radioBlock_category input#category_cancer + label,
+#sim2Wrap .radioStyle01.radioBlock_category input#category_life + label,
+#sim2Wrap .radioStyle01.radioBlock_category input#category_si + label{
+background-size: auto 3.6rem;
+background-position: center 1.4rem;
+}
+#sim2Wrap .radioStyle01.radioBlock_category input#category_life + label {
+background-size: auto 2.8rem;
+background-position: center 1.8rem;
+}
+#sim2Wrap .radioStyle01.radioBlock_category input#category_si + label {
+background-size: auto 3.4rem;
+background-position: center 1.1rem;
+}
+
+#sim2Wrap .radioStyle02 li{
+box-sizing: border-box;
+display:inline-block;
+width: 47%;
+margin-top: 6%;
+margin-left: 6%;
+vertical-align: bottom;
+}
+#sim2Wrap .radioStyle02 li:first-child,
+#sim2Wrap .radioStyle02 li:nth-child(2){
+margin-top: 0;
+}
+#sim2Wrap .radioStyle02 li:nth-child(2n+1) {
+margin-left: 0;
+}
+#sim2Wrap .radioStyle02 li .radioStyle02Wrap{
+display: table;
+width: 100%;
+}
+#sim2Wrap .radioStyle02 li label{
+display: table-cell;
+box-sizing: border-box;
+height: 7.5rem;
+padding: 0.3rem 0.5rem;
+background-color: #ffffff;
+vertical-align: middle;
+text-align: center;
+border: 0.1rem solid #d9d9d6;
+border-radius: 0.3rem;
+line-height: 1.4;
+color:#0061a0;
+font-weight: bold;
+}
+#sim2Wrap .radioStyle02 input[type="radio"]:checked + label {
+background-color: #0061a0;
+border-color: #0061a0;
+color: #ffffff;
+}
+#sim2Wrap .radioStyle02 input[type="radio"][disabled] + label{
+background-color: #d9d9d6;
+color: #75787b;
+}
+
+@media (min-width: 768px) {
+	#sim2Wrap .radioStyle01,
+	#sim2Wrap .radioStyle02{
+		margin-bottom: 3.5rem;
+	}
+	#sim2Wrap .radioStyle01.radioBlock_index{
+		width: 23.5rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#sim2Wrap .radioStyle01.radioBlock_index li{
+		width: 45%;
+		margin-left: 10%;
+	}
+	#sim2Wrap .radioStyle01.radioBlock_category li{
+		width: 22%;
+		margin-top: 0;
+		margin-left: 4%;
+	}
+	#sim2Wrap .radioStyle01.radioBlock_category li:nth-child(2n+1) {
+		margin-left: 4%;
+	}
+	#sim2Wrap .radioStyle01.radioBlock_category li:first-child {
+		margin-left: 0;
+	}
+	#sim2Wrap .radioStyle01 label .wrapTable {
+		height: 4.0rem;
+	}
+	#sim2Wrap .radioStyle01 label .innerTxt {
+		font-size: 1.5rem;
+	}
+	#sim2Wrap .radioStyle01.radioBlock_category label{
+		padding: 7.0rem 0.5rem 1.0rem;
+	}
+	#sim2Wrap .radioStyle01.radioBlock_category input[type="radio"]:checked + label {
+		padding: 6.9rem 0.4rem 0.9rem;
+		background-position: center 2.3rem!important;
+		background-size: auto 4.2rem!important;
+		border: 0.3rem solid #a4ce4e;
+	}
+	#sim2Wrap .radioStyle01.radioBlock_category input#category_medical + label,
+	#sim2Wrap .radioStyle01.radioBlock_category input#category_cancer + label,
+	#sim2Wrap .radioStyle01.radioBlock_category input#category_life + label,
+	#sim2Wrap .radioStyle01.radioBlock_category input#category_si + label{
+		background-size: auto 4.6rem;
+		background-position: center 2.1rem;
+	}
+	#sim2Wrap .radioStyle01.radioBlock_category input#category_life + label {
+		background-size: auto 3.8rem;
+		background-position: center 2.3rem;
+		}
+	#sim2Wrap .radioStyle01.radioBlock_category input#category_si + label {
+		background-size: auto 4.4rem;
+		background-position: center 1.9rem;
+	}
+	#sim2Wrap .radioStyle02 li{
+		width: 23.5%;
+		margin-top: 0;
+		margin-left: 2%;
+		font-size: 1.2rem;
+	}
+	#sim2Wrap .radioStyle02 li:nth-child(2n+1) {
+		margin-left: 2%;
+	}
+	#sim2Wrap .radioStyle02 li:first-child {
+		margin-left: 0;
+	}
+	#sim2Wrap .radioStyle02 li label{
+		line-height: 1.5;
+	}
+}
+
+/* ------------------------------------------------------ */
+/* select style */
+/* ------------------------------------------------------ */
+#sim2Wrap .selectStyle01{
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+width: 7.5rem;
+height: 4.2rem;
+border: 0.1rem solid #d9d9d6;
+box-sizing: border-box;
+background: #ffffff url(/products/sim2/images/cmn_icon_arrow_01.png) no-repeat;
+background-size: 1.0rem auto;
+background-position: center right 0.4rem;
+margin-top: 1.5rem;
+padding: 0 1.5rem 0 2.5rem;
+font-size: 1.4rem;
+color: #a7a8aa;
+}
+#sim2Wrap .selectStyle02{
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+border-radius: 0;
+border: none;
+border-bottom: 0.2rem solid #0061a0;
+box-sizing: border-box;
+background: #ffffff url(/products/sim2/images/cmn_icon_arrow_03.png) no-repeat;
+background-size: 1.4rem auto;
+background-position: center right 4%;
+margin: 1.5rem auto 0;
+padding: 0.6rem 11% 0.6rem 7%;
+text-align: center;
+font-size: 1.6rem;
+font-weight: bold;
+}
+
+#sim2Wrap .selectStyle01::-ms-expand,
+#sim2Wrap .selectStyle02::-ms-expand{
+display: none;
+}
+
+#sim2Wrap select.defaultSet{
+color: #FFFFFF;
+}
+#sim2Wrap select.defaultSet option{
+color: #a7a8aa;
+}
+
+#sim2Wrap .hideDefOpt{
+display: none!important;
+}
+#sim2Wrap .selectSize01{
+box-sizing: border-box;
+width: 89%;
+padding-left: 36.5%;
+}
+#sim2Wrap .selectSize02{
+box-sizing: border-box;
+width: 39%;
+padding-left: 14.5%;
+}
+#sim2Wrap .selectLabel01{
+align-items: center;
+display: inline-block;
+box-sizing: border-box;
+width: 11%;
+padding-left: 1.5%;
+line-height: 1.0;
+font-size: 1.4rem;
+color: #a7a8aa;
+vertical-align: bottom;
+}
+@media (min-width: 768px) {
+	#sim2Wrap .selectStyle01{
+		height: 4.6rem;
+		background-size: 1.0rem auto;
+		margin-top: 0;
+		padding: 0 2.5rem 0 2.5rem;
+	}
+	#sim2Wrap .selectSize01{
+		width: 30%;
+		padding-left: 9.5%;
+	}
+	#sim2Wrap .selectSize02{
+		box-sizing: border-box;
+		width: 20.5%;
+		padding-left: 7.0;
+	}
+	#sim2Wrap .selectLabel01{
+		width: 9.5%;
+		padding-left: 1.0%;
+		font-size: 1.7rem;
+		justify-content: center;
+	}
+}
+
+/* ------------------------------------------------------ */
+/* text style */
+/* ------------------------------------------------------ */
+#sim2Wrap .textStyle01{
+	box-sizing: border-box;
+	width: 100%;
+	height: 3.5rem;
+	padding: 0.5rem 1.3rem;
+	border: 0.1rem solid #d9d9d6;
+	font-size: 1.2rem;
+}
+
+#sim2Wrap .readTextStyle01{
+	margin-bottom: 1.5rem;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+#sim2Wrap .readTextStyle01.plusSub{
+	margin-bottom: 1.0rem;
+}
+#sim2Wrap .readTextStyle01.plusSub + p{
+	margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+	#sim2Wrap .readTextStyle01{
+		margin-bottom: 2.0rem;
+		font-size: 1.6rem;
+	}
+	#sim2Wrap .readTextStyle01.plusSub{
+		margin-bottom: 1.0rem;
+	}
+	#sim2Wrap .readTextStyle01.plusSub + p{
+		margin-bottom: 2.0rem;
+	}
+
+}
+
+/* ------------------------------------------------------ */
+/* button style */
+/* ------------------------------------------------------ */
+#sim2Wrap .buttonStyle01,
+#colorbox .buttonStyle01{
+display: table;
+width: 100%;
+}
+#sim2Wrap .buttonStyle01 button,
+#sim2Wrap .buttonStyle01 a,
+#colorbox .buttonStyle01 button,
+#colorbox .buttonStyle01 a{
+display: table-cell;
+width: 100%;
+height: 5.4rem;
+box-sizing: border-box;
+box-shadow: 0.1rem 0.2rem 0.3rem 0 rgba(0, 0, 0, 0.3);
+padding: 0.5rem;
+border: 0.1rem solid #0061a0;
+border-radius: 0.3rem;
+background-color: #0061a0;
+vertical-align: middle;
+text-align: center;
+line-height: 1.3;
+font-size: 1.4rem;
+font-weight: bold;
+color:#ffffff;
+cursor: pointer;
+}
+#sim2Wrap .buttonStyle01.size01 button,
+#sim2Wrap .buttonStyle01.size01 a,
+#colorbox .buttonStyle01.size01 button,
+#colorbox .buttonStyle01.size01 a{
+height: 3.5rem;
+}
+#sim2Wrap .buttonStyle01.size02 button,
+#sim2Wrap .buttonStyle01.size02 a,
+#colorbox .buttonStyle01.size02 button,
+#colorbox .buttonStyle01.size02 a{
+height: 4.5rem;
+}
+
+#sim2Wrap .buttonStyle01 a,
+#sim2Wrap .buttonStyle01 a:link,
+#sim2Wrap .buttonStyle01 a:visited,
+#sim2Wrap .buttonStyle01 a:active,
+#colorbox .buttonStyle01 a,
+#colorbox .buttonStyle01 a:link,
+#colorbox .buttonStyle01 a:visited,
+#colorbox .buttonStyle01 a:active{
+text-decoration: none;
+}
+
+#sim2Wrap .buttonStyle01 button.cWhite,
+#sim2Wrap .buttonStyle01 a.cWhite,
+#colorbox .buttonStyle01 button.cWhite,
+#colorbox .buttonStyle01 a.cWhite{
+border: 0.1rem solid #d9d9d6;
+background-color: #ffffff;
+color:#0061a0;
+}
+#sim2Wrap .buttonStyle01 button.cGreen,
+#sim2Wrap .buttonStyle01 a.cGreen,
+#colorbox .buttonStyle01 button.cGreen,
+#colorbox .buttonStyle01 a.cGreen{
+border: 0.1rem solid #a4ce4e;
+background-color: #a4ce4e;
+color:#333333;
+}
+#sim2Wrap .buttonStyle01 button.cGray,
+#sim2Wrap .buttonStyle01 a.cGray,
+#colorbox .buttonStyle01 button.cGray,
+#colorbox .buttonStyle01 a.cGray{
+border: 0.1rem solid #f2f2f2;
+background-color: #f2f2f2;
+color:#333333;
+}
+#sim2Wrap .buttonStyle01 button.cBlue,
+#sim2Wrap .buttonStyle01 a.cBlue,
+#colorbox .buttonStyle01 button.cBlue,
+#colorbox .buttonStyle01 a.cBlue{
+border: 0.1rem solid #0090da;
+background-color: #0090da;
+color:#ffffff;
+}
+
+#sim2Wrap .buttonStyle01 button[disabled],
+#sim2Wrap .buttonStyle01 button.cWhite[disabled],
+#sim2Wrap .buttonStyle01 button.cGreen[disabled],
+#sim2Wrap .buttonStyle01 button.cBlue[disabled],
+#colorbox .buttonStyle01 button[disabled],
+#colorbox .buttonStyle01 button.cWhite[disabled],
+#colorbox .buttonStyle01 button.cGreen[disabled],
+#colorbox .buttonStyle01 button.cBlue[disabled]{
+border: 0.1rem solid #d9d9d6;
+background-color: #d9d9d6;
+color:#75787b;
+}
+
+@media (min-width: 768px) {
+	#sim2Wrap .mainBlock01 .buttonStyle01 button,
+	#sim2Wrap .mainBlock01 .buttonStyle01 a,
+	#colorbox .mainBlock01 .buttonStyle01 button,
+	#colorbox .mainBlock01 .buttonStyle01 a{
+		font-weight: normal;
+		font-size: 1.7rem;
+	}
+}
+
+/* ------------------------------------------------------ */
+/* image style */
+/* ------------------------------------------------------ */
+#sim2Wrap .iconImage01,
+#sim2Wrap .iconImage02{
+margin-bottom: 2.0rem;
+text-align: center;
+}
+#sim2Wrap .iconImage01 img,
+#sim2Wrap .iconImage02 img{
+text-align: center;
+width: auto;
+height: 4.5rem;
+}
+#sim2Wrap .iconImage02 img{
+height: 2.7rem;
+}
+
+#sim2Wrap .img100 img{
+width: 100%;
+}
+
+#sim2Wrap .imageSize01{
+text-align: center;
+}
+#sim2Wrap .imageSize01 img{
+width: auto;
+max-height: 4.0rem;
+}
+
+#sim2Wrap .iconImage03{
+display: inline-block;
+width: 1.6rem;
+height: auto;
+vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+	#sim2Wrap .imageSize01 img{
+	max-height: initial;
+	max-height: auto;
+	}
+}
+/* ------------------------------------------------------ */
+/* utility */
+/* ------------------------------------------------------ */
+.clf{
+zoom:1;
+}
+.clf:after{
+content:".";
+display:block;
+clear:both;
+height:0;
+visibility:hidden;
+}
+.posR{
+position:relative;
+}
+
+/* font size */
+/* ------------------------------------------------------ */
+#sim2Wrap .uFontS01,
+#colorbox .uFontS01{
+	font-size: 1.2rem;
+}
+#sim2Wrap .uFontS02{
+	font-size: 1.1rem;
+}
+#sim2Wrap .uFontS03{
+	font-size: 1.8rem;
+}
+#sim2Wrap .uFontS04{
+	font-size: 1.4rem;
+}
+#sim2Wrap .uFontS05{
+	font-size: 1.0rem;
+}
+#sim2Wrap .uFontS06{
+	font-size: 1.1rem;
+}
+#sim2Wrap .uFontS07{
+	font-size: 1.2rem;
+}
+
+
+@media (min-width: 768px) {
+	#sim2Wrap .uFontS01,
+	#colorbox .uFontS01{
+		font-size: 0.9rem;
+	}
+	#sim2Wrap .uFontS02{
+		font-size: 0.8rem;
+	}
+	#sim2Wrap .uFontS03{
+		font-size: 1.5rem;
+	}
+	#sim2Wrap .uFontS04{
+		font-size: 1.2rem;
+	}
+	#sim2Wrap .uFontS05{
+		font-size: 1.0rem;
+	}
+}
+
+/* text size */
+/* ------------------------------------------------------ */
+.textF10 {font-size: 1rem !important;}
+.textF11 {font-size: 1.1rem !important;}
+.textF12 {font-size: 1.2rem !important;}
+.textF13 {font-size: 1.3rem !important;}
+.textF14 {font-size: 1.4rem !important;}
+.textF15 {font-size: 1.5rem !important;}
+.textF16 {font-size: 1.6rem !important;}
+.textF17 {font-size: 1.7rem !important;}
+.textF18 {font-size: 1.8rem !important;}
+.textF19 {font-size: 1.9rem !important;}
+.textF20 {font-size: 2rem !important;}
+.textF21 {font-size: 2.1rem !important;}
+.textF22 {font-size: 2.2rem !important;}
+.textF23 {font-size: 2.3rem !important;}
+.textF24 {font-size: 2.4rem !important;}
+.textF25 {font-size: 2.5rem !important;}
+.textF26 {font-size: 2.6rem !important;}
+.textF27 {font-size: 2.7rem !important;}
+.textF28 {font-size: 2.8rem !important;}
+.textF29 {font-size: 2.9rem !important;}
+.textF30 {font-size: 3rem !important;}
+
+/* margin Top */
+/* ------------------------------------------------------ */
+#contents .tmM120{margin-top:-12rem!important;}
+#contents .tmM115{margin-top:-11.5rem!important;}
+#contents .tmM110{margin-top:-11rem!important;}
+#contents .tmM105{margin-top:-10.5rem!important;}
+#contents .tmM100{margin-top:-10rem!important;}
+#contents .tmM95{margin-top:-9.5rem!important;}
+#contents .tmM90{margin-top:-9rem!important;}
+#contents .tmM85{margin-top:-8.5rem!important;}
+#contents .tmM80{margin-top:-8rem!important;}
+#contents .tmM75{margin-top:-7.5rem!important;}
+#contents .tmM70{margin-top:-7rem!important;}
+#contents .tmM65{margin-top:-6.5rem!important;}
+#contents .tmM60{margin-top:-6rem!important;}
+#contents .tmM55{margin-top:-5.5rem!important;}
+#contents .tmM50{margin-top:-5rem!important;}
+#contents .tmM45{margin-top:-4.5rem!important;}
+#contents .tmM40{margin-top:-4rem!important;}
+#contents .tmM35{margin-top:-3.5rem!important;}
+#contents .tmM30{margin-top:-3rem!important;}
+#contents .tmM25{margin-top:-2.5rem!important;}
+#contents .tmM20{margin-top:-2rem!important;}
+#contents .tmM15{margin-top:-1.5rem!important;}
+#contents .tmM10{margin-top:-1rem!important;}
+#contents .tmM5{margin-top:-0.5rem!important;}
+#contents .tm0{margin-top:0!important;}
+#contents .tm5{margin-top:0.5rem!important;}
+#contents .tm7{margin-top:0.7rem!important;}
+#contents .tm10{margin-top:1rem!important;}
+#contents .tm15{margin-top:1.5rem!important;}
+#contents .tm20{margin-top:2rem!important;}
+#contents .tm25{margin-top:2.5rem!important;}
+#contents .tm30{margin-top:3rem!important;}
+#contents .tm35{margin-top:3.5rem!important;}
+#contents .tm40{margin-top:4rem!important;}
+#contents .tm45{margin-top:4.5rem!important;}
+#contents .tm50{margin-top:5rem!important;}
+#contents .tm55{margin-top:5.5rem!important;}
+#contents .tm60{margin-top:6rem!important;}
+#contents .tm65{margin-top:6.5rem!important;}
+#contents .tm70{margin-top:7rem!important;}
+#contents .tm75{margin-top:7.5rem!important;}
+#contents .tm80{margin-top:8rem!important;}
+#contents .tm85{margin-top:8.5rem!important;}
+#contents .tm90{margin-top:9rem!important;}
+#contents .tm95{margin-top:9.5rem!important;}
+#contents .tm100{margin-top:10rem!important;}
+#contents .tm105{margin-top:10.5rem!important;}
+#contents .tm110{margin-top:11rem!important;}
+#contents .tm115{margin-top:11.5rem!important;}
+#contents .tm120{margin-top:12rem!important;}
+
+/* margin Bottom */
+/* ------------------------------------------------------ */
+#contents .bmM120{margin-bottom:-12rem!important;}
+#contents .bmM115{margin-bottom:-11.5rem!important;}
+#contents .bmM110{margin-bottom:-11rem!important;}
+#contents .bmM105{margin-bottom:-10.5rem!important;}
+#contents .bmM100{margin-bottom:-10rem!important;}
+#contents .bmM95{margin-bottom:-9.5rem!important;}
+#contents .bmM90{margin-bottom:-9rem!important;}
+#contents .bmM85{margin-bottom:-8.5rem!important;}
+#contents .bmM80{margin-bottom:-8rem!important;}
+#contents .bmM75{margin-bottom:-7.5rem!important;}
+#contents .bmM70{margin-bottom:-7rem!important;}
+#contents .bmM65{margin-bottom:-6.5rem!important;}
+#contents .bmM55{margin-bottom:-5.5rem!important;}
+#contents .bmM50{margin-bottom:-5rem!important;}
+#contents .bmM45{margin-bottom:-4.5rem!important;}
+#contents .bmM40{margin-bottom:-4rem!important;}
+#contents .bmM35{margin-bottom:-3.5rem!important;}
+#contents .bmM30{margin-bottom:-3rem!important;}
+#contents .bmM25{margin-bottom:-2.5rem!important;}
+#contents .bmM20{margin-bottom:-2rem!important;}
+#contents .bmM15{margin-bottom:-1.5rem!important;}
+#contents .bmM10{margin-bottom:-1rem!important;}
+#contents .bmM5{margin-bottom:-0.5rem!important;}
+#contents .bm0{margin-bottom:0!important;}
+#contents .bm5{margin-bottom:0.5rem!important;}
+#contents .bm10{margin-bottom:1rem!important;}
+#contents .bm15{margin-bottom:1.5rem!important;}
+#contents .bm20{margin-bottom:2rem!important;}
+#contents .bm25{margin-bottom:2.5rem!important;}
+#contents .bm30{margin-bottom:3rem!important;}
+#contents .bm35{margin-bottom:3.5rem!important;}
+#contents .bm40{margin-bottom:4rem!important;}
+#contents .bm45{margin-bottom:4.5rem!important;}
+#contents .bm50{margin-bottom:5rem!important;}
+#contents .bm55{margin-bottom:5.5rem!important;}
+#contents .bm60{margin-bottom:6rem!important;}
+#contents .bm65{margin-bottom:6.5rem!important;}
+#contents .bm70{margin-bottom:7rem!important;}
+#contents .bm75{margin-bottom:7.5rem!important;}
+#contents .bm80{margin-bottom:8rem!important;}
+#contents .bm85{margin-bottom:8.5rem!important;}
+#contents .bm90{margin-bottom:9rem!important;}
+#contents .bm95{margin-bottom:9.5rem!important;}
+#contents .bm100{margin-bottom:10rem!important;}
+#contents .bm105{margin-bottom:10.5rem!important;}
+#contents .bm110{margin-bottom:11rem!important;}
+#contents .bm115{margin-bottom:11.5rem!important;}
+#contents .bm120{margin-bottom:12rem!important;}
+
+
+/* margin Left */
+/* ------------------------------------------------------ */
+#contents .lmM50{margin-left:-5rem!important;}
+#contents .lmM45{margin-left:-4.5rem!important;}
+#contents .lmM40{margin-left:-4rem!important;}
+#contents .lmM35{margin-left:-3.5rem!important;}
+#contents .lmM30{margin-left:-3rem!important;}
+#contents .lmM25{margin-left:-2.5rem!important;}
+#contents .lmM20{margin-left:-2rem!important;}
+#contents .lmM15{margin-left:-1.5rem!important;}
+#contents .lmM10{margin-left:-1rem!important;}
+#contents .lmM5{margin-left:-0.5rem!important;}
+#contents .lm0{margin-left:0!important;}
+#contents .lm5{margin-left:0.5rem!important;}
+#contents .lm10{margin-left:1rem!important;}
+#contents .lm15{margin-left:1.5rem!important;}
+#contents .lm20{margin-left:2rem!important;}
+#contents .lm25{margin-left:2.5rem!important;}
+#contents .lm30{margin-left:3rem!important;}
+#contents .lm35{margin-left:3.5rem!important;}
+#contents .lm40{margin-left:4rem!important;}
+#contents .lm45{margin-left:4.5rem!important;}
+#contents .lm50{margin-left:5rem!important;}
+
+/* margin Right */
+/* ------------------------------------------------------ */
+#contents .rmM50{margin-right:-5rem!important;}
+#contents .rmM45{margin-right:-4.5rem!important;}
+#contents .rmM40{margin-right:-4rem!important;}
+#contents .rmM35{margin-right:-3.5rem!important;}
+#contents .rmM30{margin-right:-3rem!important;}
+#contents .rmM25{margin-right:-2.5rem!important;}
+#contents .rmM20{margin-right:-2rem!important;}
+#contents .rmM15{margin-right:-1.5rem!important;}
+#contents .rmM10{margin-right:-1rem!important;}
+#contents .rmM5{margin-right:-0.5rem!important;}
+#contents .rm0{margin-right:0!important;}
+#contents .rm5{margin-right:0.5rem!important;}
+#contents .rm10{margin-right:1rem!important;}
+#contents .rm15{margin-right:1.5rem!important;}
+#contents .rm20{margin-right:2rem!important;}
+#contents .rm25{margin-right:2.5rem!important;}
+#contents .rm30{margin-right:3rem!important;}
+#contents .rm35{margin-right:3.5rem!important;}
+#contents .rm40{margin-right:4rem!important;}
+#contents .rm45{margin-right:4.5rem!important;}
+#contents .rm50{margin-right:5rem!important;}
+
+/* padding Top */
+/* ------------------------------------------------------ */
+#contents .tp0{padding-top:0!important;}
+#contents .tp5{padding-top:0.5rem!important;}
+#contents .tp10{padding-top:1rem!important;}
+#contents .tp15{padding-top:1.5rem!important;}
+#contents .tp20{padding-top:2rem!important;}
+#contents .tp25{padding-top:2.5rem!important;}
+#contents .tp30{padding-top:3rem!important;}
+#contents .tp40{padding-top:4rem!important;}
+#contents .tp45{padding-top:4.5rem!important;}
+#contents .tp50{padding-top:5rem!important;}
+#contents .tp55{padding-top:5.5rem!important;}
+#contents .tp60{padding-top:6rem!important;}
+#contents .tp65{padding-top:6.5rem!important;}
+#contents .tp70{padding-top:7rem!important;}
+#contents .tp75{padding-top:7.5rem!important;}
+#contents .tp80{padding-top:8rem!important;}
+#contents .tp85{padding-top:8.5rem!important;}
+#contents .tp90{padding-top:9rem!important;}
+#contents .tp95{padding-top:9.5rem!important;}
+#contents .tp100{padding-top:10rem!important;}
+#contents .tp105{padding-top:10.5rem!important;}
+#contents .tp110{padding-top:11rem!important;}
+#contents .tp115{padding-top:11.5rem!important;}
+#contents .bp0{padding-bottom:0!important;}
+#contents .bp5{padding-bottom:0.5rem!important;}
+#contents .bp10{padding-bottom:1rem!important;}
+#contents .bp15{padding-bottom:1.5rem!important;}
+#contents .bp20{padding-bottom:2rem!important;}
+#contents .bp25{padding-bottom:2.5rem!important;}
+#contents .bp30{padding-bottom:3rem!important;}
+#contents .bp40{padding-bottom:4rem!important;}
+#contents .bp45{padding-bottom:4.5rem!important;}
+#contents .bp50{padding-bottom:5rem!important;}
+#contents .bp55{padding-bottom:5.5rem!important;}
+#contents .bp60{padding-bottom:6rem!important;}
+#contents .bp65{padding-bottom:6.5rem!important;}
+#contents .bp70{padding-bottom:7rem!important;}
+#contents .bp75{padding-bottom:7.5rem!important;}
+#contents .bp80{padding-bottom:8rem!important;}
+#contents .bp85{padding-bottom:8.5rem!important;}
+#contents .bp90{padding-bottom:9rem!important;}
+#contents .bp95{padding-bottom:9.5rem!important;}
+#contents .bp100{padding-bottom:10rem!important;}
+#contents .bp105{padding-bottom:10.5rem!important;}
+#contents .bp110{padding-bottom:11rem!important;}
+#contents .bp115{padding-bottom:11.5rem!important;}
+#contents .bp120{padding-bottom:12rem!important;}
+
+/* padding Left */
+/* ------------------------------------------------------ */
+#contents .lp5{padding-left:0.5rem!important;}
+#contents .lp10{padding-left:1rem!important;}
+#contents .lp15{padding-left:1.5rem!important;}
+#contents .lp20{padding-left:2rem!important;}
+#contents .lp25{padding-left:2.5rem!important;}
+#contents .lp30{padding-left:3rem!important;}
+#contents .lp35{padding-left:3.5rem!important;}
+#contents .lp40{padding-left:4rem!important;}
+#contents .lp45{padding-left:4.5rem!important;}
+#contents .lp50{padding-left:5rem!important;}
+#contents .lp52{padding-left:5.2rem!important;}
+
+/* padding Right */
+/* ------------------------------------------------------ */
+#contents .rp5{padding-right:0.5rem!important;}
+#contents .rp10{padding-right:1rem!important;}
+#contents .rp15{padding-right:1.5rem!important;}
+#contents .rp20{padding-right:2rem!important;}
+#contents .rp25{padding-right:2.5rem!important;}
+#contents .rp30{padding-right:3rem!important;}
+#contents .rp35{padding-right:3.5rem!important;}
+#contents .rp40{padding-right:4rem!important;}
+#contents .rp45{padding-right:4.5rem!important;}
+#contents .rp50{padding-right:5rem!important;}
+
+
+/* margin Left&Right */
+/* ------------------------------------------------------ */
+#contents .mlr15{
+	margin-left:1.5rem!important;
+	margin-right:1.5rem!important;
+}
+
+/* margin Bottom Flex */
+#contents .mb10{margin-bottom:0.5rem!important;}
+#contents .mb15{margin-bottom:0.75rem!important;}
+#contents .mb20{margin-bottom:1rem!important;}
+#contents .mb25{margin-bottom:1.25rem!important;}
+#contents .mb30{margin-bottom:1.5rem!important;}
+
+
+@media (min-width: 768px) {
+	/* margin Bottom Flex */
+	#contents .mb10{margin-bottom:1rem!important;}
+	#contents .mb15{margin-bottom:1.5rem!important;}
+	#contents .mb20{margin-bottom:2rem!important;}
+	#contents .mb25{margin-bottom:2.5rem!important;}
+	#contents .mb30{margin-bottom:3.0rem!important;}
+
+	/* margin Left&Right */
+	#contents .mlr15_2{
+		margin-left:1.5rem!important;
+		margin-right:1.5rem!important;
+	}
+
+}
+
+/* width */
+/* ------------------------------------------------------ */
+#contents .wd50 {width:5rem!important;}
+#contents .wd100 {width:10rem!important;}
+#contents .wd110 {width:11rem!important;}
+#contents .wd120 {width:12rem!important;}
+#contents .wd130 {width:13rem!important;}
+#contents .wd140 {width:14rem!important;}
+#contents .wd150 {width:15rem!important;}
+#contents .wd160 {width:16rem!important;}
+#contents .wd170 {width:17rem!important;}
+#contents .wd180 {width:18rem!important;}
+#contents .wd190 {width:19rem!important;}
+#contents .wd200 {width:20rem!important;}
+#contents .wd210 {width:21rem!important;}
+#contents .wd220 {width:22rem!important;}
+#contents .wd230 {width:23rem!important;}
+#contents .wd240 {width:24rem!important;}
+#contents .wd250 {width:25rem!important;}
+#contents .wd260 {width:26rem!important;}
+#contents .wd270 {width:27rem!important;}
+#contents .wd280 {width:28rem!important;}
+#contents .wd290 {width:29rem!important;}
+#contents .wd300 {width:30rem!important;}
+#contents .wd350 {width:35rem!important;}
+#contents .wd400 {width:40rem!important;}
+#contents .wd450 {width:45rem!important;}
+#contents .wd500 {width:50rem!important;}
+#contents .wd600 {width:60rem!important;}
+#contents .wd700 {width:70rem!important;}
+#contents .wd800 {width:80rem!important;}
+
+#contents .onlyPC_wd768 {width:auto}
+
+/* max-width */
+/* ------------------------------------------------------ */
+#contents .maxW100 {max-width: 10rem!important;}
+#contents .maxW150 {max-width: 15rem!important;}
+#contents .maxW200 {max-width: 20rem!important;}
+#contents .maxW250 {max-width: 25rem!important;}
+#contents .maxW300 {max-width: 30rem!important;}
+#contents .maxW350 {max-width: 35rem!important;}
+#contents .maxW400 {max-width: 40rem!important;}
+#contents .maxW450 {max-width: 45rem!important;}
+#contents .maxW500 {max-width: 50rem!important;}
+#contents .maxW550 {max-width: 55rem!important;}
+#contents .maxW600 {max-width: 60rem!important;}
+#contents .maxW650 {max-width: 65rem!important;}
+#contents .maxW700 {max-width: 70rem!important;}
+#contents .maxW750 {max-width: 75rem!important;}
+#contents .maxW800 {max-width: 80rem!important;}
+#contents .maxW850 {max-width: 85rem!important;}
+#contents .maxW900 {max-width: 90rem!important;}
+#contents .maxW940 {max-width: 94rem!important;}
+#contents .maxW950 {max-width: 95rem!important;}
+#contents .maxW980 {max-width: 98rem!important;}
+
+#contents .maxW100,
+#contents .maxW150,
+#contents .maxW200,
+#contents .maxW250,
+#contents .maxW300,
+#contents .maxW350,
+#contents .maxW400,
+#contents .maxW450,
+#contents .maxW500,
+#contents .maxW550,
+#contents .maxW600,
+#contents .maxW650,
+#contents .maxW700,
+#contents .maxW750,
+#contents .maxW800,
+#contents .maxW850,
+#contents .maxW900,
+#contents .maxW940,
+#contents .maxW950,
+#contents .maxW980{
+	margin-left: auto;
+	margin-right: auto;
+}
+@media (min-width: 768px) {
+	#contents .onlyPC_wd768 {
+		width:768px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+/* utility text style */
+/* ------------------------------------------------------ */
+.text-normal {
+	font-weight: normal !important;
+}
+
+.text-strong {
+	font-weight: bold !important;
+}
+
+.underline {
+	text-decoration: underline !important;
+}
+
+.text-no-decoration {
+	text-decoration: none !important;
+}
+.borderTextStyle01{
+	display: inline-block;
+	margin-bottom: 1.0rem;
+	padding: 0.5rem 1.0rem;
+	border: 0.1rem solid #d9d9d6;
+	line-height: 1.4;
+	font-size: 1.2rem;
+}
+.bgTextStyle01{
+	display: inline-block;
+	margin-bottom: 1.0rem;
+	padding: 0.5rem 1.5rem;
+	background-color: #a7a8aa;
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: #ffffff;
+}
+.borderTextStyle01.all,
+.bgTextStyle01.all{
+	display: block;
+}
+@media (min-width: 768px) {
+	.borderTextStyle01{
+		padding: 0.5rem 0.8rem;
+		line-height: 1.3;
+		font-size: 0.9rem;
+	}
+	.bgTextStyle01{
+		font-size: 1.2rem;
+	}
+}
+
+/* line-height */
+/* ------------------------------------------------------ */
+.lh0 {line-height: 0 !important;}
+.lh10 {line-height: 1 !important;}
+.lh12 {line-height: 1.2 !important;}
+.lh13 {line-height: 1.3 !important;}
+.lh14 {line-height: 1.4 !important;}
+.lh15 {line-height: 1.5 !important;}
+.lh16 {line-height: 1.6 !important;}
+.lh20 {line-height: 2 !important;}
+.lh25 {line-height: 2.5 !important;}
+.lh30 {line-height: 3 !important;}
+
+/* text indent */
+/* ------------------------------------------------------ */
+.text-indent-First-1-5em {
+text-indent: -1.5em !important;
+padding-left: 1.5em !important;
+}
+.text-indent-First-2em {
+text-indent: -2em !important;
+padding-left: 2em !important;
+}
+.text-indent-First-2-5em {
+text-indent: -2.5em !important;
+padding-left: 2.5em !important;
+}
+.text-indent-First-3em {
+text-indent: -3em !important;
+padding-left: 3em !important;
+}
+
+/* text color */
+/* ------------------------------------------------------ */
+.color-red {
+color: #db0a5b !important;
+}
+.color-green {
+color: #a4ce4e !important;
+}
+.color-blue {
+color: #0061a0 !important;
+}
+.color-blue02 {
+color: #0090da !important;
+}
+
+/* height */
+/* ------------------------------------------------------ */
+.ht10 {height: 1rem !important;}
+.ht15 {height: 1.5rem !important;}
+.ht20 {height: 2rem !important;}
+.ht25 {height: 2.5rem !important;}
+.ht30 {height: 3rem !important;}
+.ht35 {height: 3.5rem !important;}
+.ht40 {height: 4rem !important;}
+.ht45 {height: 4.5rem !important;}
+.ht50 {height: 5rem !important;}
+.ht55 {height: 5.5rem !important;}
+
+/* display */
+/* ------------------------------------------------------ */
+.displayBL {
+display: block;
+}
+.displayI {
+display: inline;
+}
+.displayIB {
+display: inline-block;
+}
+
+/* ------------------------------------------------------ */
+/* fixedArea */
+/* ------------------------------------------------------ */
+#sim2Wrap #fixedArea02Wrap{
+position: fixed;
+left: 0px;
+bottom: 0px;
+width: 100%;
+box-sizing: border-box;
+z-index: 100;
+}
+#sim2Wrap #fixedArea01,
+#sim2Wrap #fixedArea02{
+position: fixed;
+left: 0px;
+bottom: 0px;
+width: 100%;
+box-sizing: border-box;
+z-index: 100;
+}
+#sim2Wrap #fixedArea02Wrap #fixedArea02{
+position:static;
+}
+
+#sim2Wrap #fixedArea01{
+background-color: #d9d9d6;
+padding: 1.5rem 2.0rem;
+}
+#sim2Wrap #fixedArea02{
+background-color: #0061a0;
+padding: 1.0rem 1.0rem 1.0rem 1.5rem;
+font-size: 0;
+}
+#sim2Wrap #fixedArea02 .leftArea,
+#sim2Wrap #fixedArea02 #commonOlbBtn,
+#sim2Wrap #fixedArea02 #fixedSmallBtn{
+display: inline-block;
+vertical-align: top;
+box-sizing: border-box;
+}
+#sim2Wrap #fixedArea02 .leftArea{
+width: 45%;
+padding-top: 0.6rem;
+line-height: 1.0;
+color: #ffffff;
+}
+#sim2Wrap #fixedArea02 #commonOlbBtn{
+width: 55%;
+padding-left: 2.0%;
+text-align: right;
+}
+#sim2Wrap #fixedArea02 .leftArea #blPlanName{
+	margin-right: 0.5rem;
+	font-size: 1.2rem;
+}
+#sim2Wrap #fixedArea02 .leftArea #fixedPriceSet{
+	font-size: 1.6rem;
+}
+#sim2Wrap #fixedArea02 #commonOlbBtn button,
+#sim2Wrap #fixedArea02 #commonOlbBtn a{
+	font-size: 1.2rem;
+	height: 4.6rem;
+}
+#sim2Wrap #fixedArea02 .btn2 .leftArea{
+	width: 40%;
+	padding-top: 0.7rem;
+}
+#sim2Wrap #fixedArea02 .btn2 #commonOlbBtn{
+	width: 35%;
+}
+#sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn{
+	width: 25%;
+	padding-left: 3.0%;
+	text-align: right;
+}
+.custom01 #sim2Wrap #fixedArea02 .btn2 #commonOlbBtn{
+	width: 30%;
+}
+.custom01 #sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn{
+	width: 30%;
+}
+#sim2Wrap #fixedArea02 .btn2 #commonOlbBtn button,
+#sim2Wrap #fixedArea02 .btn2 #commonOlbBtn a{
+	height: 4.8rem;
+}
+#sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn a,
+#sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn button{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 1.0rem;
+	height: 4.8rem;
+}
+.custom01 #sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn a,
+.custom01 #sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn button{
+	font-size: 1.2rem;
+}
+
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01{
+	background-color: #d9d9d6;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 a{
+	position: relative;
+	display: block;
+	padding: 0.8rem 2.0rem;
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: #333333;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 a:link,
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 a:visited,
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 a:active {
+	color: #333333;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 a span{
+	font-weight: bold;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 a .mainTxt,
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 a .addSelectCount{
+	display: inline-block;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 a .addSelectCount{
+	box-sizing: border-box;
+	width: 2.2rem;
+	height: 2.2rem;
+	margin-left: 0.3rem;
+	padding: 0 0.3rem 0 0.2rem;
+	background-color: #db0a5b;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.7;
+	color: #ffffff;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea{
+	padding: 0.5rem 2.0rem;
+	background-color: #f2f2f2;
+	max-height: 13rem;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea .addSelectList li{
+	display: none;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	background-color: #ffffff;
+	border: 0.1rem solid #d9d9d6;
+	border-radius: 0.3rem;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea .addSelectList li a{
+	display: block;
+	color: #333333;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea .addSelectList li a:link,
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea .addSelectList li a:visited,
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea .addSelectList li a:active {
+	color: #333333;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea .addSelectList li:first-child{
+	margin-top: 0;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea .addSelectList li.add{
+	display: block;
+}
+
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 .accordionLink:after{
+	position: absolute;
+	top: 22%;
+	right: 2.0rem;
+	width: 2.0rem;
+	height: 2.0rem;
+	margin-left: 0;
+	background: url("/products/sim2/images/cmn_icon_39.png") no-repeat left top;
+	background-size: contain;
+}
+#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 .accordionLink.opened:after{
+	background-image: url("/products/sim2/images/cmn_icon_40.png") ;
+}
+
+#sim2Wrap #overlayBtnArea01{
+	display: none;
+}
+
+#colorbox.btnOverlay01Cbox{
+	border: 0.2rem solid #d9d9d6;
+}
+#colorbox.btnOverlay01Cbox:focus {
+    outline: none;
+}
+
+#colorbox.btnOverlay01Cbox #cboxTopLeft,
+#colorbox.btnOverlay01Cbox #cboxTopCenter,
+#colorbox.btnOverlay01Cbox #cboxTopRight,
+#colorbox.btnOverlay01Cbox #cboxBottomLeft,
+#colorbox.btnOverlay01Cbox #cboxBottomCenter,
+#colorbox.btnOverlay01Cbox #cboxBottomRight{
+	display: none!important;
+	height: 0!important;
+}
+#colorbox.btnOverlay01Cbox #cboxLoadedContent{
+	margin: 0;
+}
+
+#overlayBtnArea01Wrap .topBlock{
+	padding: 2.0rem;
+}
+#overlayBtnArea01Wrap .topBlock p{
+	margin-bottom: 2.5rem;
+}
+#overlayBtnArea01Wrap .topBlock .subTxt01{
+	margin: 1.0rem 0 1.5rem;
+	line-height: 1.5;
+}
+#overlayBtnArea01Wrap .topBlock .subTxt01 li{
+	position: relative;
+	display: inline-block;
+}
+#overlayBtnArea01Wrap .topBlock .linkOverlay01{
+	font-size: 1.2rem;
+}
+
+#overlayBtnArea01Wrap .bottomBlock{
+	padding: 1.5rem 2.0rem;
+	background-color: #f2f2f2;
+	border-top: 0.2rem solid #d9d9d6;
+}
+
+
+@media (min-width: 768px) {
+	#sim2Wrap #fixedArea02 .leftArea{
+		width: 50%;
+		padding: 1.55rem 0 0 0;
+	}
+	#sim2Wrap #fixedArea02 #commonOlbBtn{
+		width: 50%;
+	}
+	#sim2Wrap #fixedArea02 .leftArea #blPlanName,
+	#sim2Wrap #fixedArea02 .leftArea #fixedPriceSet{
+		display: inline-block;
+	}
+	#sim2Wrap #fixedArea02 .leftArea #blPlanName{
+		margin-right: 0.5rem;
+		font-size: 1.2rem;
+	}
+	#sim2Wrap #fixedArea02 #commonOlbBtn button{
+		font-size: 1.4rem;
+	}
+	#sim2Wrap #fixedArea02 .leftArea #fixedPriceSet{
+		font-size: 2.0rem;
+	}
+	#sim2Wrap #fixedArea02 .btn2 .leftArea{
+		width: 48%;
+		padding: 1.55rem 0 0 0;
+	}
+	#sim2Wrap #fixedArea02 .btn2 #commonOlbBtn{
+		width: 37%;
+	}
+	#sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn{
+		width: 15%;
+		padding-left: 2.0%;
+	}
+	.custom01 #sim2Wrap #fixedArea02 .btn2 #commonOlbBtn{
+		width: 26%;
+	}
+	.custom01 #sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn{
+		width: 26%;
+	}
+	#sim2Wrap #fixedArea02 .btn2 #commonOlbBtn a,
+	#sim2Wrap #fixedArea02 .btn2 #commonOlbBtn button,
+	#sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn a,
+	#sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn button{
+		height: 4.6rem;
+	}
+	#sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn a,
+	#sim2Wrap #fixedArea02 .btn2 #fixedSmallBtn button{
+		font-size: 0.9rem;
+	}
+	#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 a .addSelectCount{
+		width: 2.0rem;
+	    height: 2.0rem;
+    	padding: 0 0.3rem 0 0.4rem;
+	    line-height: 1.4;
+	}
+	#sim2Wrap #fixedArea02Wrap #addSelectDisplay .linkArea01 a,
+	#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea .addSelectList{
+		width: 768px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea .addSelectList li{
+		padding: 0.4rem;
+		border: 0.3rem solid #d9d9d6;
+	}
+	#sim2Wrap #fixedArea02Wrap #addSelectDisplay .addSelectBodyArea .addSelectList li a:hover {
+		color: #929294;
+	}
+	#overlayBtnArea01Wrap .topBlock{
+		padding: 3.5rem 5.5rem 3.0rem 5.5rem;
+	}
+	#overlayBtnArea01Wrap .bottomBlock{
+		padding: 1.5rem 5.5rem;
+	}
+	#overlayBtnArea01Wrap .topBlock p{
+		margin-bottom: 3.0rem;
+	}
+	#overlayBtnArea01Wrap .topBlock .linkOverlay01{
+		font-size: 0.9rem;
+	}
+}
+
+/* ------------------------------------------------------ */
+/* page setting */
+/* ------------------------------------------------------ */
+
+#pageSelect #commonFooter{
+padding-bottom: 7.0rem;
+}
+#pageSelect #commonFooter.custom01{
+padding-bottom: 10.6rem;
+}
+#pageTerms #commonFooter,
+#pageAddition #commonFooter{
+padding-bottom: 8.4rem;
+}
+#pageSelect #footerFrame .wrapFrame{
+height: 13rem!important;
+}
+#pageSelect #footerFrame.custom01 .wrapFrame{
+height: 16.6rem!important;
+}
+
+#pageTerms #footerFrame .wrapFrame,
+#pageAddition #footerFrame .wrapFrame{
+height: 15rem!important;
+}
+
+/* ------------------------------------------------------ */
+/* loading icon */
+/* ------------------------------------------------------ */
+#loadingOverlay{
+position: absolute;
+top: 0;
+left: 0;
+z-index: 30000;
+background-color: #ffffff;
+filter: alpha(opacity=40);
+opacity:0.4;
+width:100%;
+height:100%;
+display: none;
+}
+#loadingBox{
+position: absolute;
+z-index: 30001;
+width: 23%;
+padding:1.0rem 1.0rem 1.5rem;
+background-color:#FFF;
+top:0px;
+left:0px;
+text-align:center;
+border-radius:0.3rem;
+-webkit-border-radius:0.3rem;
+-moz-border-radius:0.3rem;
+border:0.1rem solid #cccccc;
+display: none;
+}
+#loadingBox img{
+width: 45%;
+}
+@media (min-width: 768px) {
+	#loadingBox{
+		width: 10rem;
+	}
+}
+
+/* ------------------------------------------------------ */
+/*  pluspremium */
+/* ------------------------------------------------------ */
+.plusPremCol1,
+.plusPremCol3,
+.plusPremCol4 {
+display: table;
+width: 100%;
+margin: auto;
+}
+.plusPremCol1 li,
+.plusPremCol3 li,
+.plusPremCol4 li {
+display: table-cell;
+padding: 0.5rem 0.4rem 0;
+vertical-align: middle;
+text-align: center;
+font-size: 1.0rem;
+font-weight: bold;
+color: #db0a5b;
+}
+.plusPremCol1 li span,
+.plusPremCol3 li span,
+.plusPremCol4 li span {
+font-weight: bold;
+}
+
+.plusPremCol1 li{
+width: 50%;
+text-align: left;
+}
+.plusPremCol1 li.tit{
+text-align: right;
+}
+.plusPremCol3 li{
+width: 33%;
+}
+.plusPremCol4 li{
+width: 25%;
+}
+
+.plusPremArea.disabled .tit,
+.plusPremArea.disabled .plusPremList,
+.noPlanErr .plusPremArea .tit,
+.noPlanErr .plusPremArea .plusPremList{
+display: none!important;
+}
+/* �ȉ��́A�\�����ڂ̑����ŁA�G���A�̌����ڂ��K�^�K�^���Ȃ��΍�i�����̂݁j */
+.selectDisplay .plusPremList{
+display: none;
+}
+.selectDisplay li:nth-child(2){
+display: block;
+}
+#operationSecBlock .selectDisplay li:nth-child(2) {
+	display: inline-block;
+}
+#operationSecBlock .selectDisplay li:nth-child(3) {
+	display: inline-block;
+}
+/**/
+/*  20/03/05 add new style */
+.custom01 #sim2Wrap .plusPremCol1 {
+text-align: center;
+}
+.custom01 #sim2Wrap .plusPremCol1 li {
+display: inline-block;
+width: auto;
+padding: 0.7rem 0.4rem 0;
+}
+.custom01 #sim2Wrap .plusPremCol1 li:first-child {
+padding-left: 0;
+}
+.custom01 #sim2Wrap .plusPremCol1 li.afterPlus01 {
+padding-left: 0.6rem;
+font-weight: normal;
+font-size: inherit;
+}
+.custom01 .plusPremCol3 li,
+.custom01 .plusPremCol4 li {
+padding: 0.7rem 0.4rem 0;
+}
+
+/*  20/03/05 add new style end */
+
+@media (min-width: 768px) {
+	.plusPremCol1,
+	.plusPremCol3,
+	.plusPremCol4 {
+		width: 70%;
+	}
+}
+
+/* ------------------------------------------------------ */
+/*  etc */
+/* ------------------------------------------------------ */
+
+/* for v.html */
+#attrArea{
+	display: none;
+}
+
+/* ------------------------------------------------------ */
+/*  for print */
+/* ------------------------------------------------------ */
+@media print{
+	#fixedArea01,
+	#fixedArea02{
+		position:static!important;
+	}
+}
+
+/* ------------------------------------------------------ */
+/*  20/03/05 add other new style */
+/* ------------------------------------------------------ */
+.custom01 #sim2Wrap .accordionLink:after{
+content: "";
+display: inline-block;
+width: 1.5rem;
+height: 1.5rem;
+margin-left: 0.4rem;
+vertical-align: text-top;
+background: url("/products/sim2/images/cmn_icon_32.png") no-repeat left top;
+background-size: contain;
+}
+.custom01 #sim2Wrap .accordionLink.opened:after{
+background-image: url("/products/sim2/images/cmn_icon_33.png") ;
+}
+.custom01 #sim2Wrap .accordionClose{
+display: block;
+padding: 0.8rem;
+background-color: #ffffff;
+border-radius: 0 0 0.3rem 0.3rem / 0 0 0.3rem 0.3rem;
+text-align: center;
+}
+.custom01 .linkInfo02{
+display: inline-block;
+text-indent: -1.7em;
+padding-left: 1.7em;
+}
+.custom01 .linkInfo02:before {
+display: inline-block;
+content: "";
+width: 1.2em;
+height: 1.2em;
+background: url("/products/sim2/images/cmn_icon_31.png") no-repeat top left;
+background-size: 100% 100%;
+margin-right: 0.2em;
+vertical-align: text-top;
+}
+#sim2Wrap .iconLinkQ,
+#sim2Wrap .iconLinkQ02 {
+display: inline-block;
+}
+#sim2Wrap .iconLinkQ {
+width: 1.7rem;
+height: 1.7rem;
+margin-left: 0.5rem;
+}
+#sim2Wrap .iconLinkQ02 {
+width: 1.2em;
+height: 1.2em;
+margin-left: 0.4em;
+}
+#sim2Wrap .iconLinkQ img,
+#sim2Wrap .iconLinkQ02 img {
+display: inline-block;
+width: 100%;
+vertical-align: text-top;
+}
+
+@media (min-width: 768px) {
+	.custom01 #sim2Wrap .accordionLink:after{
+		width: 1.4rem;
+		height: 1.4rem;
+	}
+
+	#sim2Wrap .iconLinkQ {
+		width: 1.8rem;
+		height: 1.8rem;
+	}
+}
+
+
+/* ------------------------------------------------------ */
+/*  20/07/27 add for PDF link */
+/* ------------------------------------------------------ */
+
+
+/* pdfBox01 */
+#sim2Wrap .pdfBox01 .innerTit01 {
+margin-bottom: 1.5rem;
+text-align: center;
+font-size: 1.4rem;
+}
+
+#sim2Wrap .pdfBox01 .innerBlock01 {
+display: block;
+width: auto;
+margin-bottom: 1.0rem;
+padding: 0;
+}
+#sim2Wrap .pdfBox01 .innerBlock01 dt,
+#sim2Wrap .pdfBox01 .innerBlock01 dd {
+display: block;
+}
+#sim2Wrap .pdfBox01 .innerBlock01 dt{
+width: 15rem;
+margin: 0 auto 2.5rem;
+padding-right: 0;
+text-align: center;
+}
+#sim2Wrap .pdfBox01 .innerBlock01 dt .thumbnail {
+border: 0.1rem solid #a7a8aa;
+}
+#sim2Wrap .pdfBox01 .innerBlock01 dd {
+width: auto;
+margin-bottom: 1.5rem;
+}
+#sim2Wrap .pdfBox01 .innerBlock01 dd .btn {
+margin-top: 2.0rem;
+}
+#sim2Wrap .pdfBox01 .innerBlock01 dd .btn:first-child {
+margin-top: 0;
+}
+
+#sim2Wrap .pdfBox01 .innerBlock01 dd .button{
+width: 100%;
+padding: 1.0rem 0.5rem;
+}
+
+#sim2Wrap .pdfBox01 .innerBlock01 dd .button .subtxt01,
+#sim2Wrap .pdfBox01 .innerBlock01 dd .button .subtxt02 {
+display: inline-block;
+font-size: 1.2rem;
+font-weight: normal;
+line-height: 1.5;
+}
+#sim2Wrap .pdfBox01 .innerBlock01 dd .button .subtxt02 {
+display: block;
+margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+	/* pdfBox01 */
+	#sim2Wrap .pdfBox01 {
+		width: 660px;
+		margin: 0 auto;
+	}
+	#sim2Wrap .pdfBox01 .innerTit01 {
+		margin-bottom: 25px;
+		font-size: 1.8rem;
+	}
+
+	#sim2Wrap .pdfBox01 .innerBlock01 {
+		display: table;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	#sim2Wrap .pdfBox01 .innerBlock01 dt,
+	#sim2Wrap .pdfBox01 .innerBlock01 dd {
+		display: table-cell;
+		box-sizing: border-box;
+		vertical-align: middle;
+	}
+	#sim2Wrap .pdfBox01 .innerBlock01 dt{
+		width: 170px;
+		margin: 0;
+		padding-right: 55px;
+	}
+	#sim2Wrap .pdfBox01 .innerBlock01 dt .thumbnail {
+		width: 100%;
+		border: 2px solid #a7a8aa;
+	}
+	#sim2Wrap .pdfBox01 .innerBlock01 dd {
+		width: 455px;
+		margin-bottom: 0;
+	}
+	#sim2Wrap .pdfBox01 .innerBlock01 dd .btn {
+		margin-top: 35px;
+	}
+	#sim2Wrap .pdfBox01 .innerBlock01 dd .btn:first-child {
+		margin-top: 0;
+	}
+
+	#sim2Wrap .pdfBox01 .innerBlock01 dd .button .subtxt01,
+	#sim2Wrap .pdfBox01 .innerBlock01 dd .button .subtxt02 {
+		margin-top: 0;
+		font-size: 0.9rem;
+	}
+	#sim2Wrap .pdfBox01 .innerBlock01 dd .button .subtxt02 {
+		margin-top: 10px;
+	}
+
+}
+
+/* ------------------------------------------------------ */
+/*  20/10/23 add for F5 */
+/* ------------------------------------------------------ */
+#sim2Wrap .simBaseTabArea01 .colBlock{
+display: table;
+width: 100%;
+}
+#sim2Wrap .simBaseTabArea01 .colBlock .col2Block01{
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+#sim2Wrap .simBaseTabArea01 .colBlock .col2Block01{
+width: 50%;
+}
+#sim2Wrap .simBaseTabArea01 .colBlock .col2Block01:nth-child(1){
+text-align: right;
+padding-right: 1.5rem;
+}
+#sim2Wrap .simBaseTabArea01 .colBlock .col2Block01:nth-child(2){
+text-align: left;
+padding-left: 0.5rem;
+}
+
+#sim2Wrap .simTabStyle02{
+width: 100%;
+margin: 0 auto;
+}
+#sim2Wrap .simTabStyle02 li{
+box-sizing: border-box;
+float: left;
+width: 33.333%;
+line-height: 1.3;
+}
+
+#sim2Wrap .simTabStyle02 li a{
+display: block;
+width: 100%;
+box-sizing: border-box;
+margin: 0;
+padding: 0.3rem 0.5rem;
+text-align: center;
+background-color: #ffffff;
+border: 0.2rem solid #d9d9d6;
+border-left: none;
+border-bottom: none;
+text-align: center;
+font-weight: bold;
+}
+#sim2Wrap .simTabStyle02 li a span{
+font-weight: bold;
+}
+#sim2Wrap .simTabStyle02 li a .innerWrap{
+display: table;
+width: 100%;
+}
+
+#sim2Wrap .simTabStyle02 li a .innerTxt{
+display: table-cell;
+height: 6.7rem;
+box-sizing: border-box;
+vertical-align: middle;
+}
+
+#sim2Wrap .simTabStyle02 li a .subTxt{
+display: block;
+margin-top: 0.5rem;
+font-size: 1.1rem;
+}
+#sim2Wrap .simTabStyle02 li a .subTxt.tmPtt01{
+margin-top: 1.0rem;
+}
+
+#sim2Wrap .simTabStyle02 li a:link,
+#sim2Wrap .simTabStyle02 li a:visited,
+#sim2Wrap .simTabStyle02 li a:active,
+#sim2Wrap .simTabStyle02 li a:hover,
+#sim2Wrap .simTabStyle02 li a{
+color: #333333;
+}
+#sim2Wrap .simTabStyle02 li:first-child a{
+border-left: 0.2rem solid #d9d9d6;
+}
+#sim2Wrap .simTabStyle02 li:nth-child(1).curr + li a,
+#sim2Wrap .simTabStyle02 li:nth-child(2).curr + li a{
+border-left: 0.2rem solid #d9d9d6;
+}
+#sim2Wrap .simTabStyle02 li.curr a{
+background-color: #0061a0;
+border-color: #0061a0;
+}
+#sim2Wrap .simTabStyle02 li.curr a:link,
+#sim2Wrap .simTabStyle02 li.curr a:visited,
+#sim2Wrap .simTabStyle02 li.curr a:active,
+#sim2Wrap .simTabStyle02 li.curr a:hover,
+#sim2Wrap .simTabStyle02 li.curr a{
+color: #ffffff;
+}
+
+#sim2Wrap .simTabStyle02.ptt2Col2{
+border-bottom: 0.2rem solid #0061a0;
+}
+
+#sim2Wrap .simTabStyle02.ptt2Col2 li{
+width: 50%;
+}
+#sim2Wrap .simTabStyle02.ptt2Col2 li a .innerTxt{
+height: 3.8rem;
+}
+
+#sim2Wrap .simTabStyle02.pttCol1 > li {
+width: 100%;
+}
+#sim2Wrap .simTabStyle02.pttCol1 > li > a {
+pointer-events: none;
+}
+
+#sim2Wrap .simBaseTabArea01 .simTabBlock{
+padding: 2.0rem;
+background-color: #ffffff;
+border: 0.2rem solid #0061a0;
+}
+
+#sim2Wrap .iconTxtGray01{
+display: inline-block;
+}
+#sim2Wrap .iconTxtGray01 .innerBlock{
+position: relative;
+display: flex;
+flex-flow: wrap;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+min-width: 9.2rem;
+height: 3.2rem;
+padding: 0.2rem 0.3rem;
+background-color: #f2f2f2;
+text-align: center;
+font-size: 1.0rem;
+line-height: 1.2;
+}
+#sim2Wrap .iconTxtGray01 .innerBlock:before {
+content: "";
+position: absolute;
+top: 100%;
+left: 50%;
+margin-left: -0.7rem;
+border: 0.7rem solid transparent;
+border-top: 0.9rem solid #f2f2f2;
+}
+
+/* for border-radius support */
+#sim2Wrap .simTabWrap .simInnerBlock .simTabPaymentBox {
+border-radius: 0.3rem;
+}
+#sim2Wrap .sslt .detailBlock01 .bldpBlockBlockLi .bldpBlockBlockLblL {
+border-radius: 0.3rem 0 0 0.3rem;
+}
+#sim2Wrap .sslt .detailBlock01 .bldpBlockBlockLi:nth-child(2) .bldpBlockBlockLblR {
+border-radius: 0 0.3rem 0.3rem 0;
+}
+
+#sim2Wrap .recommendBtnArea{
+padding: 1.7rem;
+background-color: #ffffff;
+border: 0.2rem solid #d9d9d6;
+border-radius: 0.3rem;
+}
+
+#sim2Wrap .femaleSecInnerTextArea p{
+display: none;
+}
+#sim2Wrap .femaleSecInnerTextArea p:first-child{
+display: block;
+}
+
+/* table style */
+#sim2Wrap table.tableStyle01{
+width: 100%;
+margin: 0 auto 1.5rem;
+background: #ffffff;
+border-top: 0.1rem solid #d9d9d6;
+border-left: 0.1rem solid #d9d9d6;
+}
+#sim2Wrap table.tableStyle01 th{
+background: #f2f2f2;
+padding: 0.5rem 1.0rem;
+border-right: 0.1rem solid #d9d9d6;
+border-bottom: 0.1rem solid #d9d9d6;
+vertical-align: middle;
+font-weight: normal;
+}
+#sim2Wrap table.tableStyle01 td{
+background: #ffffff;
+padding: 0.5rem 1.0rem;
+border-right: 0.1rem solid #d9d9d6;
+border-bottom: 0.1rem solid #d9d9d6;
+vertical-align: middle;
+}
+#sim2Wrap .colPatt01_1,
+#sim2Wrap .colPatt01_2{
+width: 50%;
+}
+#sim2Wrap .colPatt02_1{
+width: 20%;
+}
+#sim2Wrap .colPatt02_2{
+width: 80%;
+}
+
+/* for plan.html */
+#sim2Wrap #baseArea{
+padding: 1.5rem;
+}
+#sim2Wrap #baseArea .simInnerBlock{
+display: none;
+}
+#sim2Wrap .planTxtStyle01{
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+	#sim2Wrap .simTabStyle02 li a .innerTxt{
+		height: 5.2rem;
+	}
+
+	#sim2Wrap .simTabStyle02 li a .subTxt{
+		margin-top: 0.6rem;
+		font-size: 0.9rem;
+	}
+	#sim2Wrap .simTabStyle02.ptt2Col2{
+		width: 768px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#sim2Wrap .recommendBtnArea{
+		padding: 1.5rem;
+	}
+	#sim2Wrap .planTxtStyle01{
+		font-size: 1.8rem;
+	}
+}
+
+/* ------------------------------------------------------ */
+/*  22/11/02 add for F5 and SIF5 */
+/* ------------------------------------------------------ */
+/* .titStyle15 */
+#sim2Wrap .titStyle15 {
+margin-top: 1.6rem;
+margin-bottom: 1.6rem;
+text-align: center;
+}
+
+#sim2Wrap .simContainer + .titStyle15 {
+margin-top: -.4rem;
+}
+
+#sim2Wrap .titStyle15Inner {
+display: inline-flex;
+align-items: center;
+}
+
+#sim2Wrap .titStyle15Label {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: .20rem 1rem;
+background-color: #0090da;
+color: #fff;
+font-size: 1.4rem;
+font-weight: bold;
+line-height: 1;
+}
+
+#sim2Wrap .titStyle15Label + .titStyle15Text {
+margin-left: 1rem;
+}
+
+#sim2Wrap .titStyle15Text {
+color: #0061a0;
+font-size: 1.8rem;
+font-weight: bold;
+}
+
+@media (min-width: 768px) {
+#sim2Wrap .titStyle15 {
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+
+#sim2Wrap .simContainer + .titStyle15 {
+margin-top: 0;
+}
+
+#sim2Wrap .titStyle15Label {
+padding: .5rem .9375rem;
+font-size: 1.5rem;
+font-weight: normal;
+}
+
+#sim2Wrap .titStyle15Label + .titStyle15Text {
+margin-left: .625rem;
+}
+
+#sim2Wrap .titStyle15Text {
+font-size: 1.8125rem;
+font-weight: normal;
+}
+}
+
+/* .checkBlockStyle01 */
+#sim2Wrap #cancerMonthBlock .checkBlockStyle01 .iconDum,
+#sim2Wrap #threeSicknessMonthBlock .checkBlockStyle01 .iconDum,
+#sim2Wrap #threeSicknessPaymentBlock .checkBlockStyle01 .iconDum {
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+#sim2Wrap #cancerMonthBlock .checkBlockStyle01 .iconDum {
+background-image: url(/products/sim2/images/cmn_icon_37.png);
+}
+
+#sim2Wrap #threeSicknessMonthBlock .checkBlockStyle01 .iconDum {
+background-image: url(/products/sim2/images/cmn_icon_45.png);
+}
+
+#sim2Wrap #threeSicknessPaymentBlock .checkBlockStyle01 .iconDum {
+background-image: url(/products/sim2/images/cmn_icon_46.png);
+}
+
+/* .radioBlockCol3 */
+#sim2Wrap .radioBlockCol3 li label > .subTxt {
+display: block;
+font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+#sim2Wrap .radioBlockCol3 li label > .subTxt {
+font-size: .875rem;
+}
+}
+
+/* .simContainer02Inner */
+@media (min-width: 768px) {
+#sim2Wrap .simContainer02Inner {
+margin: 0 auto;
+width: 70%;
+}
+}
+
+/* .fixedArea02Type01 */
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 {
+position: absolute;
+bottom: 6rem;
+width: 100%;
+background-color: transparent;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner {
+display: block;
+padding: 0 2rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner a {
+width: 12.7rem;
+margin-left: 0;
+margin-right: 0;
+padding: .4rem;
+background-color: #f2f2f2;
+border-radius: .3rem;
+line-height: 1;
+box-sizing: border-box;
+text-align: center;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner a::after {
+display: none;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner a::before {
+content: "";
+display: block;
+position: absolute;
+top: 50%;
+right: 1rem;
+width: 0;
+height: 0;
+margin-top: -4px;
+border-style: solid;
+border-width: 0 5px 8px 5px;
+border-color: transparent transparent #a7a8aa transparent;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner a.opened::before {
+transform: rotate(180deg);
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner a .mainTxt {
+font-size: 1.2rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner a .addSelectCount {
+display: none;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .addSelectBodyArea {
+padding-top: 1rem;
+padding-bottom: 1rem;
+background-color: rgba(167, 168, 170, .8);
+overflow-y: auto;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .addSelectBodyArea .addSelectList li {
+padding: .6rem;
+border: none;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 {
+padding: .5rem 2rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .fixedAreaInner {
+display: flex;
+align-items: flex-end;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 .leftArea {
+margin-bottom: .5rem;
+padding-top: 0;
+width: 100%;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 .rightArea {
+position: relative;
+display: flex;
+flex-shrink: 0;
+margin-left: .5rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .leftArea #blPlanName {
+margin-right: 0;
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .leftArea #blPlanName .planName {
+font-weight: bold;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .leftArea #fixedPriceSet {
+margin-top: .5rem;
+font-size: 1.2rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .leftArea #fixedPriceSet .priceMain {
+margin-left: .5rem;
+margin-right: .5rem;
+font-size: 2.2rem;
+font-weight: bold;
+letter-spacing: -.05rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn {
+padding-left: 0;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #fixedSmallBtn {
+width: 7rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .btn2 .rightArea * + * {
+margin-left: .3rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #fixedSmallBtn {
+padding-left: 0;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn a,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn button,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #fixedSmallBtn a {
+height: 7.6rem;
+box-shadow: none;
+letter-spacing: -0.1rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn a:hover,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn a:active,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn a:focus,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn button:hover,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn button:active,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn button:focus,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #fixedSmallBtn a:hover,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #fixedSmallBtn a:active,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #fixedSmallBtn a:focus {
+opacity: .8;
+}
+
+@media (max-width: 767px) {
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn a,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn button {
+font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", Arial, sans-serif !important;
+}
+}
+
+@media (min-width: 768px) {
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 {
+bottom: 65px;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner {
+max-width: 768px;
+margin: 0 auto;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner a {
+width: 16.25rem;
+padding: .4375rem;
+border-radius: .1875rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner a::before {
+right: .625rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .linkArea01 .linkArea01Inner a .mainTxt {
+font-size: 1.125rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .addSelectBodyArea {
+padding-top: .625rem;
+padding-bottom: .625rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #addSelectDisplay .addSelectBodyArea .addSelectList li {
+padding-top: .6875rem;
+padding-bottom: .6875rem;
+font-size: 1.125rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 .leftArea {
+display: flex;
+align-items: baseline;
+margin-bottom: 0;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .fixedAreaInner {
+width: 100%;
+max-width: 768px;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .leftArea #blPlanName {
+margin-right: .625rem;
+font-size: 1.125rem;
+font-weight: normal;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .leftArea #blPlanName .planName {
+font-weight: normal;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .leftArea #fixedPriceSet {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 1rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .leftArea #fixedPriceSet .priceMain {
+margin-left: .625rem;
+margin-right: .3125rem;
+font-size: 3rem;
+font-weight: normal;
+letter-spacing: normal;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #fixedSmallBtn {
+width: 10rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 #fixedArea02 .btn2 .rightArea * + * {
+margin-left: .3125rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn a,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #commonOlbBtn button,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type01 .btn2 #fixedSmallBtn a {
+height: 5.625rem;
+font-size: 1.125rem;
+font-weight: normal;
+letter-spacing: normal;
+}
+}
+
+/* .fixedArea02Type02 */
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #addSelectDisplay .linkArea01 {
+border-top: 1px solid #a7a8aa;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #addSelectDisplay .linkArea01 a {
+display: flex;
+align-items: center;
+padding-top: .5rem;
+padding-bottom: .5rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #addSelectDisplay .linkArea01 a .addSelectCount {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 1rem;
+width: 2rem;
+height: 2rem;
+font-size: 1.2rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #addSelectDisplay .linkArea01 .accordionLink:after {
+top: .5rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 {
+padding: .5rem 2rem;
+background-color: #fff;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .fixedAreaInner {
+display: flex;
+align-items: flex-end;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 .leftArea {
+margin-bottom: .5rem;
+padding-top: 0;
+width: 100%;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 .rightArea {
+display: flex;
+flex-shrink: 0;
+margin-left: .5rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .leftArea #blPlanName {
+margin-right: 0;
+color: #0061a0;
+font-size: 1.2rem;
+font-weight: bold;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .leftArea #blPlanName .planName {
+font-weight: bold;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .leftArea #fixedPriceSet {
+margin-top: .5rem;
+color: #222;
+font-size: 1.2rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .leftArea #fixedPriceSet .priceMain {
+margin-left: .5rem;
+margin-right: .5rem;
+color: #db0a5b;
+font-size: 2.2rem;
+font-weight: bold;
+letter-spacing: -.05rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn {
+padding-left: 0;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #fixedSmallBtn {
+width: 7rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn a,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn button,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #fixedSmallBtn a {
+height: 5rem;
+box-shadow: none;
+letter-spacing: -0.1rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn a:hover,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn a:active,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn a:focus,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn button:hover,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn button:active,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn button:focus,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #fixedSmallBtn a:hover,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #fixedSmallBtn a:active,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #fixedSmallBtn a:focus {
+opacity: .8;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .rightArea * + * {
+margin-left: .3rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #fixedSmallBtn {
+padding-left: 0;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #fixedSmallBtn a {
+border-color: #0090da;
+background-color: #0090da;
+color: #fff;
+}
+
+@media (max-width: 767px) {
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn a,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn button {
+font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", Arial, sans-serif !important;
+}
+}
+
+@media (min-width: 768px) {
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #addSelectDisplay .linkArea01 {
+border-top-width: 2px;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #addSelectDisplay .linkArea01 a {
+max-width: 832px;
+width: 100%;
+padding-top: .3125rem;
+padding-bottom: .3125rem;
+box-sizing: border-box;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #addSelectDisplay .linkArea01 a .mainTxt {
+font-size: 1.125rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #addSelectDisplay .linkArea01 a .addSelectCount {
+margin-left: .625rem;
+width: 1.875rem;
+height: 1.875rem;
+font-size: 1.125rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #addSelectDisplay .linkArea01 .accordionLink:after {
+top: .3125rem;
+width: 1.875rem;
+height: 1.875rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 {
+padding-top: .3125rem;
+padding-bottom: .3125rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 .leftArea {
+margin-bottom: .4375rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 .rightArea {
+margin-left: 1rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .fixedAreaInner {
+width: 100%;
+max-width: 768px;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .leftArea #blPlanName {
+margin-right: .625rem;
+font-size: 1.125rem;
+font-weight: normal;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .leftArea #blPlanName .planName {
+font-weight: normal;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .leftArea #fixedPriceSet {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 1rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .leftArea #fixedPriceSet .priceMain {
+margin-left: .625rem;
+margin-right: .3125rem;
+font-size: 3.5rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #fixedSmallBtn {
+width: 10rem;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn a,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #commonOlbBtn button,
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 .btn2 #fixedSmallBtn a {
+height: 4.375rem;
+font-size: 1.125rem;
+font-weight: normal;
+}
+
+#sim2Wrap #fixedArea02Wrap.fixedArea02Type02 #fixedArea02 .rightArea * + * {
+margin-left: .3125rem;
+}
+}

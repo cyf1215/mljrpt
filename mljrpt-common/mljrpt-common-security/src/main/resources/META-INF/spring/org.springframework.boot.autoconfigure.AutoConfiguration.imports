@@ -1,0 +1,7 @@
+com.cg.mljrpt.common.security.service.MljrptUserDetailsServiceImpl
+com.cg.mljrpt.common.security.service.MljrptAppUserDetailsServiceImpl
+com.cg.mljrpt.common.security.service.MljrptRedisOAuth2AuthorizationService
+com.cg.mljrpt.common.security.service.MljrptRedisOAuth2AuthorizationConsentService
+com.cg.mljrpt.common.security.component.MljrptSecurityInnerAspect
+com.cg.mljrpt.common.security.component.MljrptSecurityMessageSourceConfiguration
+com.cg.mljrpt.common.security.service.MljrptRemoteRegisteredClientRepository

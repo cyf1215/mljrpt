@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+            http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.cg</groupId>
+        <artifactId>illustration</artifactId>
+        <version>3.6.5</version>
+    </parent>
+
+    <artifactId>illustration-biz</artifactId>
+    <packaging>jar</packaging>
+
+    <description>illustration 业务模块</description>
+
+
+    <dependencies>
+
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>html2pdf</artifactId>
+			<version>4.0.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>ognl</groupId>
+			<artifactId>ognl</artifactId>
+			<version>3.1.15</version>
+		</dependency>
+
+        <!--必备: 依赖api模块-->
+        <dependency>
+            <groupId>com.cg</groupId>
+            <artifactId>illustration-api</artifactId>
+            <version>3.6.5</version>
+        </dependency>
+        <!--选配: orm 模块-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+		<dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+			<version>8.0.26</version>
+        </dependency>
+        <!--必备：安全模块-->
+        <dependency>
+            <groupId>com.cg</groupId>
+            <artifactId>mljrpt-common-security</artifactId>
+        </dependency>
+        <!--必备：服务处理-->
+        <dependency>
+            <groupId>com.cg</groupId>
+            <artifactId>mljrpt-common-feign</artifactId>
+        </dependency>
+        <!--必备：日志处理-->
+        <dependency>
+            <groupId>com.cg</groupId>
+            <artifactId>mljrpt-common-log</artifactId>
+        </dependency>
+        <!--必备：swagger-->
+        <dependency>
+            <groupId>com.cg</groupId>
+            <artifactId>mljrpt-common-swagger</artifactId>
+        </dependency>
+        <!--必备: 注册中心客户端-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <!--必备: 配置中心客户端-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+        <!--必备：undertow容器-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-undertow</artifactId>
+        </dependency>
+    </dependencies>
+<!--
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>io.fabric8</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>-->
+
+</project>

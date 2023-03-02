@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~
+  ~      Copyright (c) 2018-2025, lengleng All rights reserved.
+  ~
+  ~  Redistribution and use in source and binary forms, with or without
+  ~  modification, are permitted provided that the following conditions are met:
+  ~
+  ~ Redistributions of source code must retain the above copyright notice,
+  ~  this list of conditions and the following disclaimer.
+  ~  Redistributions in binary form must reproduce the above copyright
+  ~  notice, this list of conditions and the following disclaimer in the
+  ~  documentation and/or other materials provided with the distribution.
+  ~  Neither the name of the mljrpt4cloud.com developer nor the names of its
+  ~  contributors may be used to endorse or promote products derived from
+  ~  this software without specific prior written permission.
+  ~  Author: lengleng (wangiegie@gmail.com)
+  ~
+  -->
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cg.mljrpt.product.mapper.ProductMapper">
+
+  <resultMap id="productMap" type="com.cg.mljrpt.product.entity.Product">
+    <id property="id" column="id"/>
+    <result property="abbreviation" column="abbreviation"/>
+    <result property="officialName" column="official_name"/>
+    <result property="nickname" column="nickname"/>
+    <result property="period" column="period"/>
+    <result property="primaryInsurance" column="primary_insurance"/>
+    <result property="additionalInsurance1" column="additional_insurance1"/>
+    <result property="additionalInsurance2" column="additional_insurance2"/>
+    <result property="additionalInsurance3" column="additional_insurance3"/>
+    <result property="additionalInsurance4" column="additional_insurance4"/>
+    <result property="additionalInsurance5" column="additional_insurance5"/>
+    <result property="additionalInsurance6" column="additional_insurance6"/>
+    <result property="additionalInsurance7" column="additional_insurance7"/>
+    <result property="additionalInsurance8" column="additional_insurance8"/>
+    <result property="additionalInsurance9" column="additional_insurance9"/>
+    <result property="additionalInsurance10" column="additional_insurance10"/>
+    <result property="additionalPremium1" column="additional_premium1"/>
+    <result property="additionalPremium2" column="additional_premium2"/>
+    <result property="additionalPremium3" column="additional_premium3"/>
+    <result property="additionalPremium4" column="additional_premium4"/>
+    <result property="additionalPremium5" column="additional_premium5"/>
+    <result property="additionalPremium6" column="additional_premium6"/>
+    <result property="additionalPremium7" column="additional_premium7"/>
+    <result property="additionalPremium8" column="additional_premium8"/>
+    <result property="additionalPremium9" column="additional_premium9"/>
+    <result property="additionalPremium10" column="additional_premium10"/>
+    <result property="createTime" column="create_time"/>
+    <result property="createBy" column="create_by"/>
+    <result property="updateTime" column="update_time"/>
+    <result property="updateBy" column="update_by"/>
+  </resultMap>
+</mapper>

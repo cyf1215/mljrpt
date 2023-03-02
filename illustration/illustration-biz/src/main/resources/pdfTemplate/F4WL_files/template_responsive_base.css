@@ -1,0 +1,95 @@
+@charset "Shift_JIS";
+/* ====================================================== */
+/* For : responsive */ 
+/* ====================================================== */
+
+/* ====================================================== */
+/* template style */ 
+/* ====================================================== */
+@media only screen and (max-width: 767px) {
+.alertCss, 
+.aural, 
+#headerFrame,
+#headerFrame2,
+#headerFrame3,
+#ancContents, 
+#headerBreadcrumbFrame, 
+.sideNaviCcmn, 
+.pageup, 
+#pageTopBtn, 
+#footerFrame {
+	display: none!important;
+}
+
+#contents .onlySMP {
+display:block;
+}
+#contents .onlySMP_i {
+display:inline;
+}
+#contents .onlyPC,
+#contents .onlyPC_i {
+display:none;
+}
+}
+
+@media only screen and (min-width: 768px) {
+#commonHeader, 
+#commonFooter, 
+.toPageTopFloat {
+	display: none!important;
+}
+
+#contents .onlyPC {
+display:block;
+}
+#contents .onlyPC_i {
+display:inline;
+}
+
+#contents .onlySMP,
+#contents .onlySMP_i {
+display:none;
+}
+}
+
+sup, sub {
+line-height: 1;
+}
+
+#headerBreadcrumbFrame {
+margin-bottom: 10px!important;
+}
+
+/* ====================================================== */
+/* contents style */ 
+/* ====================================================== */
+
+/* =================== */
+/* base style */ 
+/* =================== */
+#contentsFrame .wrapFrame,
+#contentsFrame .wrapFrame #mainFrame,
+#contentsFrame #footerFrame .wrapFrame{
+width:980px;
+}
+#contentsFrame .contentsBody{
+width:980px;
+margin:0 auto;
+box-sizing:border-box;
+}
+
+@media only screen and (max-width: 767px) {
+
+#contentsFrame .wrapFrame,
+#contentsFrame .wrapFrame #mainFrame{
+width:100%;
+}
+
+#contentsFrame .contentsBody{
+width:100%;
+padding:0 2.0rem;
+}
+
+}
+

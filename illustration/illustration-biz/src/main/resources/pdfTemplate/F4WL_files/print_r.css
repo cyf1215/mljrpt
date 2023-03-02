@@ -1,0 +1,15 @@
+@charset "Shift_JIS";
+
+/* --------------------------------------------------------------------- */
+/* for responsive add */
+/* --------------------------------------------------------------------- */
+#commonHeader,
+#commonFooter,
+#PAGETOP,
+#pageTopBtn,
+#ancContents,
+.alertJs,
+.pageup
+{
+    display: none!important;
+}

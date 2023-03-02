@@ -1,0 +1,6 @@
+com.cg.mljrpt.common.core.config.TaskExecutorConfiguration
+com.cg.mljrpt.common.core.config.JacksonConfiguration
+com.cg.mljrpt.common.core.config.RedisTemplateConfiguration
+com.cg.mljrpt.common.core.config.RestTemplateConfiguration
+com.cg.mljrpt.common.core.util.SpringContextHolder
+com.cg.mljrpt.common.core.config.WebMvcConfiguration

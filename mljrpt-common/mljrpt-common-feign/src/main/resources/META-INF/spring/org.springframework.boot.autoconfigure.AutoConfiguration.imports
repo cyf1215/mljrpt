@@ -1,0 +1,3 @@
+com.cg.mljrpt.common.feign.MljrptFeignAutoConfiguration
+com.cg.mljrpt.common.feign.sentinel.SentinelAutoConfiguration
+com.cg.mljrpt.common.feign.sentinel.handle.GlobalBizExceptionHandler
